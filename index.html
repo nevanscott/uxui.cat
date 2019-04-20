@@ -12,6 +12,15 @@
         --fill: #FFF;
       }
       body { font-family: system-ui, sans-serif; margin: 1em; padding: 0; }
+      a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: solid 3px dodgerblue;
+        transition: border-color 300ms;
+      }
+      a:hover {
+        border-color: mediumblue;
+      }
       ul {
         list-style: none;
         margin: 0;
@@ -34,9 +43,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        transition: transform 500ms;
+        transition: transform 300ms;
       }
-      a.course:hover { transform: scale(1.05); }
+      a.course:hover { transform: scale(1.05); border-color: var(--stroke); }
       .uxui0818 {
         --color: white;
         --fill: #c059af;
@@ -60,7 +69,7 @@
     </style>
   </head>
   <body>
-    <h1>Nevan’s UX/UI classes in Barcelona 👋</h1>
+    <h1><a href="https://nevanscott.com/">Nevan</a>’s UX/UI classes in Barcelona 👋</h1>
     <ul class="courses">
       <li>
         <a class="course uxui0419" href="https://0419.uxui.cat/">April 2019</a>
