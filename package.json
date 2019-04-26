@@ -1,0 +1,24 @@
+{
+  "name": "uxui.cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "dev": "hugo server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nevanscott/uxui.cat.git"
+  },
+  "author": "Nevan Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nevanscott/uxui.cat/issues"
+  },
+  "homepage": "https://github.com/nevanscott/uxui.cat#readme",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "postcss-cli": "^6.1.2"
+  }
+}
