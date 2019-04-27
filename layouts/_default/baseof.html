@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="{{ $style.Permalink }}">
   </head>
   <body>
-    {{ block "main" . }}{{ end }}
+    <header role="banner">
+      <h1><a href="https://nevanscott.com/">Nevan</a>’s UX/UI classes in Barcelona 👋</h1>
+    </header>
+    {{ block "main" . }}
+      <main aria-role="main">
+        {{ .Content }}
+      </main>
+    {{ end }}
   </body>
 </html>
