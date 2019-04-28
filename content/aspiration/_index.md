@@ -95,3 +95,10 @@ So I'm starting this page to share resources for aspirational purposes. I hope t
 - [ ] [Simplebits](http://simplebits.com)
 - [ ] [Audubon](https://www.audubon.org)
 - [ ] Odeo
+
+
+## Just for fun
+
+While putting together all those links, I remembered this old teaser for Tiny Wings, which is great fun:
+
+{{< youtube AXUiyK1olZ8 >}}
