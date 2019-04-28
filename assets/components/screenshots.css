@@ -1,8 +1,5 @@
-.screenshot.mobile {
-  background-color: var(--stroke);
-  padding: 5px;
-}
-
 .screenshot img {
   display: block;
+  box-sizing: border-box;
+  border: solid 5px var(--stroke);
 }
