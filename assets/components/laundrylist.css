@@ -1,0 +1,25 @@
+.laundrylist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 20ch;
+  max-width: none;
+}
+
+.laundrylist li {
+  margin-bottom: 0.5em;
+}
+
+.laundrylist small a {
+  color: var(--color);
+}
+.laundrylist small a::before {
+  content: '[';
+  margin-right: 0.25em;
+  color: var(--color-muted);
+}
+.laundrylist small a::after {
+  content: ']';
+  margin-left: 0.25em;
+  color: var(--color-muted);
+}
