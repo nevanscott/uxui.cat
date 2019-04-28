@@ -1,0 +1,17 @@
+.breadcrumb {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.breadcrumb li {
+  display: flex;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: '→ ';
+  margin: 0 0.5em;
+}
+.breadcrumb .active a {
+  border: none;
+  color: inherit;
+}

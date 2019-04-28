@@ -1,0 +1,13 @@
+nav.primary {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+nav.main-nav {
+  display: flex;
+}
+
+nav.main-nav :not(:last-child) {
+  margin-right: 0.5em;
+}

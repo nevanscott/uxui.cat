@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <h1>{{ .Title }}</h1>
+    <section class="gallery">
+    {{ range .Resources.ByType "image" }}
+      <figure class="screenshot mobile portrait">
+        <img src="{{ .RelPermalink }}" />
+      </figure>
+    {{ end }}
+    </section>
+    {{ .Content }}
+  </main>
+{{ end }}

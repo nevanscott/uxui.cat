@@ -40,3 +40,12 @@ h2 {
 p, ul, ol, blockquote {
   max-width: 60ch;
 }
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}

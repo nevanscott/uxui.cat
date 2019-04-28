@@ -10,6 +10,10 @@
   <body>
     <header role="banner">
       <h1><a href="https://nevanscott.com/">Nevan</a>’s UX/UI classes in Barcelona 👋</h1>
+      <nav class="primary">
+        {{ partial "nav.html" . }}
+        {{ partial "breadcrumb.html" . }}
+      </nav>
     </header>
     {{ block "main" . }}
       <main aria-role="main">
