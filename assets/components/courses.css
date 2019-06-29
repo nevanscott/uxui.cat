@@ -50,7 +50,17 @@ a.course:hover {
   --stroke: #16181d;
 }
 .uxui0619 {
-  --color: white;
-  --fill: #01a9cb;
-  --stroke: #111a22;
+  --transparent: transparent;
+  --goldenrod: #ffc003;
+  --pumpkin: #f58c0c;
+  --indigo: #6018f0;
+  --white: #ffffff;
+  --pale: #eef2f6;
+  --slate: #465967;
+  --dark: #273039;
+  --black: #000000;
+
+  --color: var(--black);
+  --fill: var(--goldenrod);
+  --stroke: var(--slate);
 }
