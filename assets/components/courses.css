@@ -29,6 +29,9 @@ a.course:hover {
   transform: scale(1.05);
   border-color: var(--stroke);
 }
+a.course::after {
+  display: none;
+}
 .uxui0818 {
   --color: white;
   --fill: #c059af;

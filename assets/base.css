@@ -21,6 +21,15 @@ a:hover {
 h1 a, h2 a, h3 a {
   border-bottom-width: 3px;
 }
+a[href^="http"]::after {
+    content: "↗";
+    color: mediumblue;
+    font-size: smaller;
+    font-weight: 700;
+    margin-left: 0.25em;
+}
+
+
 small {
   color: var(--color-muted);
 }

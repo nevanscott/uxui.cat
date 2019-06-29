@@ -11,3 +11,7 @@ nav.main-nav {
 nav.main-nav :not(:last-child) {
   margin-right: 0.5em;
 }
+
+nav a::after {
+  display: none;
+}
