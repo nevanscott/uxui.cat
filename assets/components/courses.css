@@ -32,26 +32,31 @@ a.course:hover {
 a.course::after {
   display: none;
 }
+
 .uxui0818 {
   --color: white;
   --fill: #c059af;
   --stroke: #009;
 }
+
 .uxui1018 {
   --color: white;
   --fill: #599dc0;
   --stroke: #260099;
 }
+
 .uxui0119 {
   --color: white;
   --fill: #cc334d;
   --stroke: #330099;
 }
+
 .uxui0419 {
   --color: white;
   --fill: #cc005f;
   --stroke: #16181d;
 }
+
 .uxui0619 {
   --transparent: transparent;
   --goldenrod: #ffc003;
@@ -67,3 +72,20 @@ a.course::after {
   --fill: var(--goldenrod);
   --stroke: var(--slate);
 }
+
+.uxui1019 {
+  --transparent: transparent;
+  --goldenrod: #ffc003;
+  --pumpkin: #f58c0c;
+  --indigo: #6018f0;
+  --white: #ffffff;
+  --pale: #eef2f6;
+  --slate: #465967;
+  --dark: #273039;
+  --black: #000000;
+
+  --color: var(--white);
+  --fill: var(--indigo);
+  --stroke: var(--slate);
+}
+
