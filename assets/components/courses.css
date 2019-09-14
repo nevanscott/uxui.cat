@@ -74,18 +74,14 @@ a.course::after {
 }
 
 .uxui1019 {
-  --transparent: transparent;
-  --goldenrod: #ffc003;
-  --pumpkin: #f58c0c;
-  --indigo: #6018f0;
-  --white: #ffffff;
-  --pale: #eef2f6;
-  --slate: #465967;
-  --dark: #273039;
+  --white: #FFFFFF;
+  --pale: #EEF2F6;
+  --slate: #495764;
   --black: #000000;
+  --royal: #007FFF;
+  --plum: hsl( 230, 95%, 45%);
 
   --color: var(--white);
-  --fill: var(--indigo);
+  --fill: var(--royal);
   --stroke: var(--slate);
 }
-
