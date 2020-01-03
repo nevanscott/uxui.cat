@@ -85,3 +85,16 @@ a.course::after {
   --fill: var(--royal);
   --stroke: var(--slate);
 }
+
+.uxui0120 {
+  --white: #FFFFFF;
+  --pale: #EEF2F6;
+  --slate: #495764;
+  --black: #000000;
+  --royal: #007FFF;
+  --plum: hsl( 230, 95%, 45%);
+
+  --color: var(--white);
+  --fill: var(--plum);
+  --stroke: var(--slate);
+}
