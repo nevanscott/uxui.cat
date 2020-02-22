@@ -1,7 +1,9 @@
 nav.primary {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
+  border-bottom: solid 2px var(--stroke);
 }
 
 nav.main-nav {

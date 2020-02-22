@@ -9,14 +9,18 @@
   </head>
   <body>
     <header role="banner">
-      <h1>
-        <a href="{{ .Site.BaseURL }}">Learn UX/UI</a> in Barcelona 👋
-        <small>with <a href="https://nevanscott.com/">Nevan Scott</a></small>
-      </h1>
       <nav class="primary">
+        <h1>
+          <a href="{{ .Site.BaseURL }}">Learn UX/UI</a> in Barcelona 👋
+          <small>with <a href="https://nevanscott.com/">Nevan Scott</a></small>
+        </h1>
         {{ partial "nav.html" . }}
-        {{ partial "breadcrumb.html" . }}
       </nav>
+      {{ if not .IsHome -}}
+        <nav class="breadcrumb">
+          {{ partial "breadcrumb.html" . }}
+        </nav>
+      {{- end }}
     </header>
     {{ block "main" . }}
       <main aria-role="main">
