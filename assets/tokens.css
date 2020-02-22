@@ -2,23 +2,27 @@
   --font: system-ui, sans-serif;
   --font-display: Georgia, serif;
 
-  --background: #FFF;
-  --color: #000;
+  --background: white;
+  --color: black;
   --color-muted: #999;
   --stroke: #EEE;
-  --fill: #FFF;
+  --fill: white;
   --link: dodgerblue;
   --active: mediumblue;
   --highlight: lightyellow;
-  --highlight-text: #000;
+  --highlight-text: black;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1A1A1A;
-    --color: #FFF;
+    --color: white;
     --color-muted: #CCC;
     --stroke: #333;
     --fill: #1A1A1A;
+    --link: mediumblue;
+    --active: dodgerblue;
+    --highlight: black;
+    --highlight-text: gold;
   }
 }
