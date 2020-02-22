@@ -1,6 +1,6 @@
 <nav class="main-nav">
   {{ $currentPage := . }}
-  <a class="main-nav-item home{{if $currentPage.IsHome}} active{{end}}" href="{{ .Site.BaseURL }}/">Home</a>
+  <a class="main-nav-item home{{if $currentPage.IsHome}} active{{end}}" href="{{ .Site.BaseURL }}">Home</a>
   {{ range .Site.Menus.main }}
     <a class="main-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title | markdownify }}">{{ .Name | markdownify }}</a>
   {{ end }}

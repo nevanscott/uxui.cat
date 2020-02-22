@@ -9,7 +9,10 @@
   </head>
   <body>
     <header role="banner">
-      <h1><a href="https://nevanscott.com/">Nevan</a>’s UX/UI classes in Barcelona 👋</h1>
+      <h1>
+        <a href="{{ .Site.BaseURL }}">Learn UX/UI</a> in Barcelona 👋
+        <small>with <a href="https://nevanscott.com/">Nevan Scott</a></small>
+      </h1>
       <nav class="primary">
         {{ partial "nav.html" . }}
         {{ partial "breadcrumb.html" . }}

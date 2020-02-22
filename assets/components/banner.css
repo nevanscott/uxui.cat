@@ -1,3 +1,13 @@
 [role=banner] a::after {
   display: none;
 }
+
+[role=banner] small {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+[role=banner] small a {
+  border-width: 2px;
+}
