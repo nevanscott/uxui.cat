@@ -23,11 +23,6 @@ ul.courses {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: transform 300ms;
-}
-a.course:hover {
-  transform: scale(1.05);
-  border-color: var(--stroke);
 }
 a.course::after {
   display: none;
@@ -36,25 +31,21 @@ a.course::after {
 .uxui0818 {
   --color: white;
   --fill: #c059af;
-  --stroke: #009;
 }
 
 .uxui1018 {
   --color: white;
   --fill: #599dc0;
-  --stroke: #260099;
 }
 
 .uxui0119 {
   --color: white;
   --fill: #cc334d;
-  --stroke: #330099;
 }
 
 .uxui0419 {
   --color: white;
   --fill: #cc005f;
-  --stroke: #16181d;
 }
 
 .uxui0619 {
@@ -70,7 +61,6 @@ a.course::after {
 
   --color: var(--black);
   --fill: var(--goldenrod);
-  --stroke: var(--slate);
 }
 
 .uxui1019 {
@@ -83,7 +73,6 @@ a.course::after {
 
   --color: var(--white);
   --fill: var(--royal);
-  --stroke: var(--slate);
 }
 
 .uxui0120 {
@@ -96,5 +85,4 @@ a.course::after {
 
   --color: var(--white);
   --fill: var(--plum);
-  --stroke: var(--slate);
 }

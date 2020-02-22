@@ -5,3 +5,13 @@
   --stroke: #EEE;
   --fill: #FFF;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1A1A1A;
+    --color: #FFF;
+    --color-muted: #CCC;
+    --stroke: #333;
+    --fill: #1A1A1A;
+  }
+}
