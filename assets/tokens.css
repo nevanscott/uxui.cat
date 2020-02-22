@@ -1,9 +1,16 @@
 :root {
+  --font: system-ui, sans-serif;
+  --font-display: Georgia, serif;
+
   --background: #FFF;
   --color: #000;
   --color-muted: #999;
   --stroke: #EEE;
   --fill: #FFF;
+  --link: dodgerblue;
+  --active: mediumblue;
+  --highlight: lightyellow;
+  --highlight-text: #000;
 }
 
 @media (prefers-color-scheme: dark) {

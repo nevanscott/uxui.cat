@@ -29,7 +29,7 @@ ul.courses {
   transition: box-shadow 300ms;
 }
 a.course:hover {
-  --stroke: mediumblue;
+  --stroke: var(--active);
 }
 a.course::after {
   display: none;
