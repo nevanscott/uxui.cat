@@ -6,16 +6,19 @@ ul.courses {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
   grid-auto-rows: minmax(8rem, auto);
-  gap: 1em;
+  gap: 1.25rem;
 }
 .courses li {
   display: contents;
 }
 .course {
   background: var(--fill);
-  border: solid 2px var(--stroke);
-  border-radius: 5px;
-  box-shadow: inset 0 0 0 3px var(--background);
+  border: none;
+  border-radius: 1px;
+  box-shadow:
+    0 0 0 3px var(--background),
+    0 0 0 5px var(--stroke)
+  ;
   color: var(--color);
   font-weight: bold;
   text-decoration: none;
@@ -23,6 +26,10 @@ ul.courses {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: box-shadow 300ms;
+}
+a.course:hover {
+  --stroke: mediumblue;
 }
 a.course::after {
   display: none;
