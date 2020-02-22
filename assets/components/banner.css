@@ -20,3 +20,10 @@
 [role=banner] small a {
   border-width: 2px;
 }
+
+[role=banner] small a[href^="http"]::after {
+  display: inline;
+  font-family: system-ui, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
