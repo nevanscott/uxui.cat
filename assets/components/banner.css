@@ -12,9 +12,7 @@
 }
 
 [role=banner] small {
-  font-family: Georgia, serif;
-  font-style: italic;
-  font-weight: normal;
+  font-size: 0.8em;
 }
 
 [role=banner] small a {
@@ -23,7 +21,4 @@
 
 [role=banner] small a[href^="http"]::after {
   display: inline;
-  font-family: system-ui, sans-serif;
-  font-style: normal;
-  font-weight: 700;
 }

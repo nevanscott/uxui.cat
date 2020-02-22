@@ -1,14 +1,15 @@
 body {
   background-color: var(--background);
+  border-top: solid 4px mediumblue;
   color: var(--color);
   font-family: system-ui, sans-serif;
-  margin: 1rem;
-  padding: 0;
+  margin: 0;
+  padding: 1rem;
   line-height: 1.45;
 }
 @media screen and (min-width: 55ch) {
   body {
-    margin: 5vw;
+    padding: 5vw;
   }
 }
 a {
