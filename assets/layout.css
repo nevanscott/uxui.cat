@@ -1,12 +1,21 @@
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr auto 1fr;
+  grid-template-columns: 1fr auto 2fr;
+  grid-gap: 0 1em;
 }
 
 main > * {
-  grid-column: 3;
+  grid-column: 2;
 }
 
 main > .full-bleed {
-  grid-column: 1 / span 4;
+  grid-column: 1 / span 3;
+}
+
+main > .wide {
+  grid-column: 2 / span 2;
+}
+
+main > aside {
+  grid-column: 3;
 }

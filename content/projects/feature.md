@@ -4,7 +4,7 @@ weight: 4
 description: Add a new feature to an existing product, as seamlessly as possible.
 ---
 
-<div class="row">
+<div class="row wide">
   <div>
 
   ### Team Size
@@ -52,13 +52,16 @@ description: Add a new feature to an existing product, as seamlessly as possible
 
 You've been tasked with adding a new feature to an existing product. The feature may have already been decided on, but that doesn't mean that conducting some initial research is irrelevant! Decisions like this are often made for all sorts of reasons (business goals, marketing needs, keeping up with the competition), and it's our job to find ways to still make our work as user-centered as possible. Dig deeper to find out what user goals this feature may really be aimed at, so that you can make a stronger design.
 
-Some examples of features you may be asked to add:
+<aside>
 
-* "Karaoke mode" for a music app
-* Book clubs for a reading app
-* Gameplay tutorials for a video/computer gaming community
-* Shared apartment/housing searches for couples or roommates on a property listing service
-* First date suggestions for a dating app
+  Some examples of features you may be asked to add:
+
+  * "Karaoke mode" for a music app
+  * Book clubs for a reading app
+  * Gameplay tutorials for a video/computer gaming community
+  * Shared apartment/housing searches for couples or roommates on a property listing service
+  * First date suggestions for a dating app
+</aside>
 
 
 ## Background

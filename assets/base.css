@@ -34,6 +34,10 @@ a.external::after {
 }
 
 
+aside {
+  color: var(--color-muted);
+  font-size: smaller;
+}
 small {
   color: var(--color-muted);
 }
