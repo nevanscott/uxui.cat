@@ -7,18 +7,10 @@
   margin-top: 0;
 }
 
-[role=banner] a::after {
-  display: none;
-}
-
 [role=banner] small {
   font-size: 0.8em;
 }
 
 [role=banner] small a {
   border-width: 2px;
-}
-
-[role=banner] small a[href^="http"]::after {
-  display: inline;
 }

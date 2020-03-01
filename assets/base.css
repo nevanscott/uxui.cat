@@ -24,7 +24,7 @@ a:hover {
 h1 a, h2 a, h3 a {
   border-bottom-width: 3px;
 }
-a[href^="http"]::after {
+a.external::after {
     content: "↗";
     color: var(--active);
     font-size: smaller;

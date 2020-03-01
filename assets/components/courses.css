@@ -32,9 +32,6 @@ ul.courses {
 a.course:hover {
   --stroke: var(--active);
 }
-a.course::after {
-  display: none;
-}
 
 .uxui0818 {
   --color: white;

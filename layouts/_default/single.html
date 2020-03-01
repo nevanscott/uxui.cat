@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <header>
+      <h1>{{ .Title | markdownify }}</h1>
+      {{ with .Description }}
+    </header>
+      <p>{{ . | markdownify }}</p>
+    {{ end }}
+    {{ .Content }}
+    <footer>
+      <p><small>Last update: {{ .Lastmod.Format "January 2, 2006" }}</small></p>
+    </footer>
+  </main>
+{{ end }}

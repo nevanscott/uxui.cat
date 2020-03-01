@@ -4,12 +4,13 @@
 
   --background: white;
   --color: black;
-  --color-muted: #999;
-  --stroke: #EEE;
+  --color-muted: lightslategrey;
+  --stroke: whitesmoke;
   --fill: white;
   --link: dodgerblue;
   --active: mediumblue;
-  --highlight: lightyellow;
+  --highlight: lemonchiffon;
+  --highlight-alt: peachpuff;
   --highlight-text: black;
 }
 
@@ -22,7 +23,8 @@
     --fill: #1A1A1A;
     --link: mediumblue;
     --active: dodgerblue;
-    --highlight: black;
+    --highlight: #0F0F0F;
+    --highlight-alt: #090909;
     --highlight-text: gold;
   }
 }

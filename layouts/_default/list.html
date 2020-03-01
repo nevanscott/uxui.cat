@@ -2,5 +2,16 @@
   <main aria-role="main">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
+    <h2>Pages</h2>
+    <ul>
+    {{ range .Pages }}
+      <li>
+        <h3><a href="{{.Permalink}}">{{ .Title | markdownify }}</a></h3>
+        {{ with .Description -}}
+          <p>{{ . | markdownify }}<p>
+        {{- end }}
+      </li>
+    {{ end }}
+    </ul>
   </main>
 {{ end }}

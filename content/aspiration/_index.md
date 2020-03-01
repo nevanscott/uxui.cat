@@ -1,5 +1,6 @@
 ---
 title: Aspiration
+weight: 2
 ---
 
 I sometimes talk with my students about differentiating between *inspiration* and *aspiration* when looking at other design work. It's quite easy to find examples of interface and digital design work on the web, and as a designer to go through a small emotional journey including a mix of desire, jealousy, frustration.

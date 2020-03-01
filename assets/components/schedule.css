@@ -1,0 +1,21 @@
+.schedule {
+  grid-gap: 1em 0;
+}
+
+.schedule > * {
+  background: var(--highlight);
+  padding: 0 1em;
+}
+.schedule > *:nth-child(even) {
+  background: var(--highlight-alt);
+}
+
+.schedule ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.schedule li + li {
+  margin-block-start: 1em;
+}
