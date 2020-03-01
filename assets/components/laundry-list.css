@@ -1,4 +1,4 @@
-.laundrylist ul {
+.laundry-list ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -6,19 +6,19 @@
   max-width: none;
 }
 
-.laundrylist li {
+.laundry-list li {
   margin-bottom: 0.5em;
 }
 
-.laundrylist small a {
+.laundry-list small a {
   color: var(--color);
 }
-.laundrylist small a::before {
+.laundry-list small a::before {
   content: '[';
   margin-right: 0.25em;
   color: var(--color-muted);
 }
-.laundrylist small a::after {
+.laundry-list small a::after {
   content: ']';
   margin-left: 0.25em;
   color: var(--color-muted);

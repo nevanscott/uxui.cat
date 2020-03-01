@@ -3,9 +3,9 @@
     <header>
       <h1>{{ .Title | markdownify }}</h1>
       {{ with .Description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
     </header>
-      <p>{{ . | markdownify }}</p>
-    {{ end }}
     {{ .Content }}
     <footer>
       <p><small>Last update: {{ .Lastmod.Format "January 2, 2006" }}</small></p>

@@ -11,9 +11,10 @@ If we look around out concepts and mockups for inspiration, I think we should al
 
 So I'm starting this page to share resources for aspirational purposes. I hope this will grow over time, but I think it's better to get something out the door than try to make it perfect and have it never see the light of day.
 
+
+{{% module class="laundry-list full-bleed" %}}
 ## Examples
 
-{{% module class="laundrylist" %}}
 - [Typekit](http://v4.jasonsantamaria.com/portfolio/typekit/)
 - Editorially <small>[1](http://stet.editorially.com/articles/iterating-the-editorially-ui/) [2](http://stet.editorially.com/articles/new-on-editorially-organize-all-the-things/) [3](http://stet.editorially.com/articles/saving-your-work-in-more-ways-than-one/)</small>
 - [Virgin America](https://work.co/virgin-america)

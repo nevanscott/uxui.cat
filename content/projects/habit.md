@@ -76,7 +76,7 @@ For this project, use a digital design tool to make a mid-fidelity version of yo
 
 ## Suggested Schedule
 
-<div class="schedule row">
+<div class="schedule row full-bleed">
   <div>
 
   ### Day 1

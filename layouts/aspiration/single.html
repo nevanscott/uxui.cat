@@ -2,7 +2,7 @@
   <main aria-role="main">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <section>
+    <section class="full-bleed">
       <h2>Attachments</h2>
       <div class="gallery">
       {{ range .Resources.ByType "image" }}

@@ -54,7 +54,7 @@ In this project you’ll be putting more information architecture, content strat
 
 ## Suggested schedule
 
-<div class="schedule row">
+<div class="schedule row full-bleed">
   <div>
 
   ### Day 1

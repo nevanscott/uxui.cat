@@ -6,7 +6,7 @@ title: Tinycards
 
 ## First Launch
 
-{{% module class="gallery" %}}
+{{% module class="gallery full-bleed" %}}
 
 {{< figure
   class="screenshot mobile"

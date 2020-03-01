@@ -98,7 +98,7 @@ We should get a strong sense of:
 ## Suggested Schedule
 
 
-<div class="schedule row">
+<div class="schedule row full-bleed">
   <div>
 
   ### Day 1
