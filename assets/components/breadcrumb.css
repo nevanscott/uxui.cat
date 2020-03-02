@@ -1,5 +1,6 @@
 nav.breadcrumb {
-  border-bottom: solid 1px var(--stroke);
+  color: var(--color-muted);
+  margin: -2rem 0 2rem;
   padding: 0.25rem 0;
 }
 
@@ -16,7 +17,10 @@ nav.breadcrumb {
   content: '→';
   margin: 0 0.5em;
 }
-.breadcrumb .active a {
+.breadcrumb a {
   border: none;
-  color: inherit;
+  text-decoration: underline;
+}
+.breadcrumb .active a {
+  text-decoration: none;
 }
