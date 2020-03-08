@@ -5,10 +5,15 @@
       {{ with .Description }}
         <p>{{ . | markdownify }}</p>
       {{ end }}
+      {{ with .PublishDate }}
+        <p>
+          <small>Published {{ .Format "January 2, 2006" }}</small>
+        </p>
+      {{ end }}
     </header>
     {{ .Content }}
     <footer>
-      <p><small>Last update: {{ .Lastmod.Format "January 2, 2006" }}</small></p>
+      <p><small>Last updated {{ .Lastmod.Format "January 2, 2006" }}</small></p>
     </footer>
   </main>
 {{ end }}

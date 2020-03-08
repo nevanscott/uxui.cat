@@ -5,7 +5,7 @@ body {
   font-family: var(--font);
   margin: 0;
   padding: 1rem;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 @media screen and (min-width: 55ch) {
   body {
@@ -55,8 +55,12 @@ h2 {
   font-family: var(--font-display);
   font-weight: normal;
 }
-p, ul, ol, blockquote {
-  max-width: 60ch;
+h3 {
+  margin-top: 1.5em;
+}
+p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+  max-width: 37rem;
 }
 
 figure {
