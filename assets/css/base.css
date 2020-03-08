@@ -55,8 +55,12 @@ h1 {
 h2 {
   margin-top: 2.5em;
 }
-p, ul, ol, blockquote {
-  max-width: 55ch;
+h3 {
+  margin-top: 1.5em;
+}
+p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {
+  box-sizing: border-box;
+  max-width: 37rem;
 }
 
 figure {
