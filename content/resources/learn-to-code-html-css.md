@@ -5,6 +5,6 @@ topics:
   - HTML
   - CSS
 subtitle: Develop & Style Websites
-author: Shay Howe
+authors: Shay Howe
 ---
 

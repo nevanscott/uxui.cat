@@ -5,6 +5,6 @@ topics:
   - User Story
   - Agile
   - Jobs To Be Done
-source: Gov.uk Service Manual
+sources: Gov.uk Service Manual
 ---
 

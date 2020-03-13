@@ -5,7 +5,7 @@ topics:
   - Sketch
   - Resources
 subtitle: YouTube channel with Sketch tutorials (also of other related softwares)
-author: Pablo Stanley
-source: YouTube
+authors: Pablo Stanley
+sources: YouTube
 ---
 

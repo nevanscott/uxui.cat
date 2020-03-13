@@ -5,5 +5,5 @@ format: Video
 topics:
   - Usability
   - Testing
-source: 'BlueDuckLabs'
+sources: 'BlueDuckLabs'
 ---

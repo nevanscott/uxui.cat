@@ -5,7 +5,7 @@ topics:
   - Agile
   - Design Process
 subtitle: Case Study Findings
-author: Hoa Loranger
-source: Nielsen Norman Group
+authors: Hoa Loranger
+sources: Nielsen Norman Group
 ---
 

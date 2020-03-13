@@ -6,6 +6,8 @@ sectionPagesMenu: main
 
 taxonomies:
   topics: topics
+  author: authors
+  source: sources
 
 markup:
   goldmark:

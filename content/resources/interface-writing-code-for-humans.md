@@ -5,6 +5,6 @@ topics:
   - Writing
   - User Interface
   - Microcopy
-author: Nicole Fenton
+authors: Nicole Fenton
 ---
 

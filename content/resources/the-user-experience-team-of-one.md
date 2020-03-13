@@ -5,7 +5,7 @@ topics:
   - User Research
   - Testing
 subtitle: A Research and Design Survival Guide
-author: Leah Buley
-source: Rosenfeld Media
+authors: Leah Buley
+sources: Rosenfeld Media
 ---
 

@@ -4,6 +4,6 @@ link: 'https://viljamis.com/2016/typography-for-user-interfaces/'
 topics:
   - Typography
   - User Interface
-author: Viljami Salminen
+authors: Viljami Salminen
 ---
 

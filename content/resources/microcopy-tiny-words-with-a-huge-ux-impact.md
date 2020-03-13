@@ -6,7 +6,7 @@ topics:
   - Content
   - User Interface
   - Microcopy
-author: Nick Babich
-source: UX Planet
+authors: Nick Babich
+sources: UX Planet
 ---
 

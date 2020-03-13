@@ -7,7 +7,7 @@ topics:
   - Information Architecture
   - Navigation
 subtitle: Improving Your Information Architecture
-author: Pierre Croft
-source: Smashing Magazine
+authors: Pierre Croft
+sources: Smashing Magazine
 ---
 

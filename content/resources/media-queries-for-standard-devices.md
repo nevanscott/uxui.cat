@@ -5,6 +5,6 @@ topics:
   - CSS
   - Responsive
   - HTML
-source: CSS-Tricks
+sources: CSS-Tricks
 ---
 

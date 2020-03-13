@@ -5,6 +5,6 @@ link: >-
 topics:
   - Agile
   - Lean
-source: Interaction Design Foundation
+sources: Interaction Design Foundation
 ---
 

@@ -6,7 +6,7 @@ topics:
   - Heuristics
   - Testing
 subtitle: Introduction to Usability
-author: Jakob Nielsen
-source: Nielsen Norman Group
+authors: Jakob Nielsen
+sources: Nielsen Norman Group
 ---
 

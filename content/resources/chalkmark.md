@@ -5,6 +5,6 @@ topics:
   - Usability
   - Testing
 subtitle: Online screenshot testing
-source: Optimal Workshop
+sources: Optimal Workshop
 ---
 

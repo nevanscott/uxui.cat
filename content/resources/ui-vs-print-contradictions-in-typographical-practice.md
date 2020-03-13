@@ -6,6 +6,6 @@ topics:
   - Typography
   - User Interface
 subtitle: Contradictions in typographical practice
-author: Alexander Artsvuni
+authors: Alexander Artsvuni
 ---
 

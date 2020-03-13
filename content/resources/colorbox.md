@@ -4,6 +4,6 @@ link: 'http://www.colorbox.io'
 topics:
   - Color
   - Design Systems
-source: Lyft Design
+sources: Lyft Design
 ---
 

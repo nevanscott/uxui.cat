@@ -5,6 +5,6 @@ topics:
   - Card Sorting
   - Information Architecture
   - Navigation
-source: Usability.gov
+sources: Usability.gov
 ---
 

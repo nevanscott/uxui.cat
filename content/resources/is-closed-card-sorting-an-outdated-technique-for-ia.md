@@ -5,7 +5,7 @@ topics:
   - Card Sorting
   - Information Architecture
   - Navigation
-author: David Juhlin
-source: Optimal Workshop
+authors: David Juhlin
+sources: Optimal Workshop
 ---
 

@@ -4,6 +4,6 @@ link: 'https://www.nngroup.com/articles/customization-personalization/'
 topics:
   - Customization
   - Personalization
-author: Amy Schade
+authors: Amy Schade
 ---
 

@@ -4,7 +4,7 @@ link: 'https://alistapart.com/article/interviewing-humans/'
 topics:
   - Interview
   - User Research
-author: Erika Hall
-source: A List Apart
+authors: Erika Hall
+sources: A List Apart
 ---
 

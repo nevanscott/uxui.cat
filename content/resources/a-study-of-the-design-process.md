@@ -6,6 +6,6 @@ topics:
   - Design Process
   - Double Diamond
 subtitle: 'Eleven lessons: managing design in eleven global brands'
-source: Design Council
+sources: Design Council
 ---
 

@@ -6,6 +6,6 @@ topics:
   - CSS
   - CSS Grid
   - Flexbox
-author: Jen Simmons
+authors: Jen Simmons
 ---
 

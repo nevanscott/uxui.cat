@@ -7,7 +7,7 @@ topics:
   - Content
   - Writing
   - Information Architecture
-author: Erin Kissane
-source: A Book Apart
+authors: Erin Kissane
+sources: A Book Apart
 ---
 

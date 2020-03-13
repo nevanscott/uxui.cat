@@ -5,7 +5,7 @@ topics:
   - Card Sorting
   - Information Architecture
   - Navigation
-author: Katie Sherwin
-source: Nielsen Norman Group
+authors: Katie Sherwin
+sources: Nielsen Norman Group
 ---
 

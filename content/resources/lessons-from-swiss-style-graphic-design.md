@@ -6,7 +6,7 @@ topics:
   - Composition
   - Color
   - Inspiration
-author: Diogo Terror
-source: Smashing Magazine
+authors: Diogo Terror
+sources: Smashing Magazine
 ---
 

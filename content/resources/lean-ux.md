@@ -5,7 +5,7 @@ topics:
   - Agile
   - Lean
 subtitle: Designing Great Products with Agile Teams
-author: Jeff Gothelf and Josh Seiden
-source: O'Reilly
+authors: Jeff Gothelf and Josh Seiden
+sources: O'Reilly
 ---
 

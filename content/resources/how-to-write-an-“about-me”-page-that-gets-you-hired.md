@@ -4,7 +4,7 @@ link: 'https://99u.adobe.com/articles/51669/how-to-write-about-me-section'
 topics:
   - Portfolio
   - Writing
-author: Nicole Fenton
-source: 99u
+authors: Nicole Fenton
+sources: 99u
 ---
 

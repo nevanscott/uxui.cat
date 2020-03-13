@@ -2,11 +2,13 @@
   <main aria-role="main">
     <h1><a href="{{ .Params.link }}">{{ .Title }}</a></h1>
     <div class="meta">
-      {{ with .Params.author }}
-        <cite class="byline">by <span class="author">{{ . }}</span></cite>
+      {{ with .Params.authors }}
+        <cite class="byline">
+          by <a class="author" href="/authors/{{ . | urlize }}/">{{ . }}</a>
+        </cite>
       {{ end }}
-      {{ with .Params.source }}
-        <span class="source">from <span class="source-title">{{ . }}</span></span>
+      {{ with .Params.sources }}
+        <span class="source">from <a class="source-title" href="/sources/{{ . | urlize }}/">{{ . }}</a></span>
       {{ end }}
       {{ with .Params.link }}
         {{ $url := urls.Parse . }}
@@ -15,7 +17,7 @@
       {{ with .Params.topics }}
         <ul class="topics">
           {{ range . }}
-            <li><a href="/topics/{{ . | urlize }}/">{{ . }}</a> </li>
+            <li><a href="/topics/{{ . | urlize }}/">{{ . }}</a></li>
           {{ end }}
         </ul>
       {{ end }}

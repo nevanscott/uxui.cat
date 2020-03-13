@@ -4,6 +4,6 @@ link: 'https://www.youtube.com/watch?v=rO5dBA-avfw'
 topics:
   - Design Systems
   - Style Tile
-author: Jesse Showalter
+authors: Jesse Showalter
 ---
 ​

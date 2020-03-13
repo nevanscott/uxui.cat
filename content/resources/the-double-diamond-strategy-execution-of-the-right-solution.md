@@ -4,7 +4,7 @@ link: 'https://www.thoughtworks.com/insights/blog/double-diamond'
 topics:
   - Design Thinking
   - Double Diamond
-author: Jonny Schneider
-source: Thoughtworks
+authors: Jonny Schneider
+sources: Thoughtworks
 ---
 

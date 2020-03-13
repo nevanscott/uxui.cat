@@ -5,7 +5,7 @@ topics:
   - Usability
   - Heuristics
   - User Interface
-author: Jakob Nielsen
-source: Nielsen Norman Group
+authors: Jakob Nielsen
+sources: Nielsen Norman Group
 ---
 

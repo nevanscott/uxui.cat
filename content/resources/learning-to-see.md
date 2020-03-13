@@ -4,6 +4,6 @@ link: 'https://ia.net/topics/learning-to-see'
 topics:
   - Composition
   - Typography
-author: Oliver Reichenstein
-source: iA
+authors: Oliver Reichenstein
+sources: iA
 ---
