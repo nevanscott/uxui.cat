@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <h1><a class="external" href="{{ .Params.link }}">{{ .Title }}</a></h1>
+    <div class="meta">
+      {{ with .Params.authors }}
+        <cite class="byline">
+          by <a class="author" href="/authors/{{ . | urlize }}/">{{ . }}</a>
+        </cite>
+      {{ end }}
+      {{ with .Params.sources }}
+        <span class="source">from <a class="source-title" href="/sources/{{ . | urlize }}/">{{ . }}</a></span>
+      {{ end }}
+      {{ with .Params.link }}
+        {{ $url := urls.Parse . }}
+        <span class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</span>
+      {{ end }}
+      {{ with .Params.topics }}
+        <ul class="topics">
+          {{ range . }}
+            <li><a href="/topics/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+    {{ .Content }}
+  </main>
+{{ end }}
