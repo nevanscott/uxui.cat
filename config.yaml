@@ -4,6 +4,9 @@ title: UX/UI Barcelona
 
 sectionPagesMenu: main
 
+taxonomies:
+  topics: topics
+
 markup:
   goldmark:
     renderer:
