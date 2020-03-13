@@ -1,6 +1,9 @@
 {{ define "main" }}
   <main aria-role="main">
     <h1>{{ .Title }}</h1>
+    {{ with .Description -}}
+      <p>{{ . | markdownify }}<p>
+    {{- end }}
     {{ .Content }}
     <h2>Pages</h2>
     <ul>
