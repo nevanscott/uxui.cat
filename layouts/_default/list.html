@@ -6,7 +6,7 @@
     <ul>
     {{ range .Pages }}
       <li>
-        <h3><a href="{{.Permalink}}">{{ .Title | markdownify }}</a></h3>
+        <h3><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
         {{ with .Description -}}
           <p>{{ . | markdownify }}<p>
         {{- end }}
