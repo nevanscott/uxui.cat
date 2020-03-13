@@ -1,6 +1,6 @@
 {{ define "main" }}
   <main aria-role="main">
-    <h1><a href="{{ .Params.link }}">{{ .Title }}</a></h1>
+    <h1><a class="external" href="{{ .Params.link }}">{{ .Title }}</a></h1>
     <div class="meta">
       {{ with .Params.authors }}
         <cite class="byline">
