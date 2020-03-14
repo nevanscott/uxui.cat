@@ -1,5 +1,5 @@
-@import "./assets/tokens.css";
-@import "./assets/helpers.css";
-@import "./assets/base.css";
-@import "./assets/layout.css";
-@import "./assets/components/*.css";
+@import "./assets/css/tokens.css";
+@import "./assets/css/helpers.css";
+@import "./assets/css/base.css";
+@import "./assets/css/layout.css";
+@import "./assets/css/components/*.css";
