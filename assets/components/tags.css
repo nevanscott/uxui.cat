@@ -1,0 +1,31 @@
+ul.tags {
+  list-style: none;
+  margin: 1.5em 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+ul.tags li {
+  margin-right: 0.5em;
+}
+ul.tags li:last-child {
+  margin-right: 0;
+}
+
+.tags {
+  font-size: smaller;
+}
+
+.tags a {
+  background-color: var(--highlight);
+  border: none;
+  border-radius: 2px;
+  padding: 2px 0.5em;
+  transition: background-color 300ms;
+}
+
+.tags a:hover {
+  background-color: var(--highlight-alt);
+}

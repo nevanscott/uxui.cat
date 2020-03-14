@@ -19,7 +19,7 @@
         <span class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</span>
       {{ end }}
       {{ with .Params.topics }}
-        <ul class="topics">
+        <ul class="tags">
           {{ range . }}
             <li><a href="/topics/{{ . | urlize }}/">{{ . }}</a></li>
           {{ end }}
