@@ -9,6 +9,7 @@ nav.breadcrumb {
   margin: 0;
   padding: 0;
   display: flex;
+  max-width: none;
 }
 .breadcrumb li {
   display: flex;
