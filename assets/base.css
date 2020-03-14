@@ -53,7 +53,6 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   margin-top: 2.5em;
   font-family: var(--font-display);
-  font-style: italic;
   font-weight: normal;
 }
 p, ul, ol, blockquote {
