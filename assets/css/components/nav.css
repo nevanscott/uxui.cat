@@ -8,8 +8,9 @@ nav.primary {
 
 nav.main-nav {
   display: flex;
+  font-size: 0.8em;
 }
 
 nav.main-nav :not(:last-child) {
-  margin-right: 0.5em;
+  margin-right: 1em;
 }

@@ -1,4 +1,5 @@
 ul.courses {
+  font-family: var(--font-interface);
   list-style: none;
   margin: 0;
   padding: 0;

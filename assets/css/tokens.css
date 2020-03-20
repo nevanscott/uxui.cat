@@ -1,6 +1,11 @@
 :root {
-  --font: system-ui, sans-serif;
-  --font-headline: Georgia, serif;
+  --font-sans: system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+
+  --font-text: var(--font-serif);
+  --font-headline: var(--font-sans);
+  --font-title: var(--font-sans);
+  --font-interface: var(--font-sans);
 
   --background: white;
   --color: black;

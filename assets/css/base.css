@@ -2,7 +2,8 @@ body {
   background-color: var(--background);
   border-top: solid 4px var(--active);
   color: var(--color);
-  font-family: var(--font);
+  font-family: var(--font-text);
+  font-size: calc(0.4vw + 1em);
   margin: 0;
   padding: 1rem;
   line-height: 1.45;
@@ -48,15 +49,17 @@ mark {
   font-weight: bolder;
 }
 h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline);
   line-height: 1.35;
+}
+h1 {
+  font-family: var(--font-title);
 }
 h2 {
   margin-top: 2.5em;
-  font-family: var(--font-headline);
-  font-weight: normal;
 }
 p, ul, ol, blockquote {
-  max-width: 60ch;
+  max-width: 55ch;
 }
 
 figure {
