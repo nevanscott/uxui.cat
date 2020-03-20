@@ -5,13 +5,8 @@ body {
   font-family: var(--font-text);
   font-size: calc(0.4vw + 1em);
   margin: 0;
-  padding: 1rem;
+  padding: 0;
   line-height: 1.45;
-}
-@media screen and (min-width: 55ch) {
-  body {
-    padding: 5vw;
-  }
 }
 
 a {
