@@ -2,7 +2,6 @@ nav.breadcrumb {
   color: var(--color-muted);
   font-family: var(--font-interface);
   font-size: 0.8em;
-  margin: -2rem 0 2rem;
   padding: 0.25rem 1rem;
 }
 
