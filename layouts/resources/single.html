@@ -16,7 +16,7 @@
       {{ end }}
       {{ with .Params.link }}
         {{ $url := urls.Parse . }}
-        <span class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</span>
+        <small class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</small>
       {{ end }}
       {{ with .Params.topics }}
         <ul class="tags">
