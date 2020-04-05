@@ -2,7 +2,12 @@
   {{ range $.Site.Data.courses }}
     <li>
       {{ if isset . "url" }}
-        <a class="course {{ .id }}" href="{{ .url }}">{{ .start }}</a>
+        <a class="course {{ .id }}" href="{{ .url }}">
+          {{- or .label .start -}}
+          {{ if isset . "label" }}
+            <small>{{ .start }}</small>
+          {{ end }}
+        </a>
       {{ else }}
         <span class="course {{ .id }}">
           {{ .start }}

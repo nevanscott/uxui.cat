@@ -22,7 +22,8 @@ ul.courses {
     0 0 0 5px var(--stroke)
   ;
   color: var(--color);
-  font-weight: bold;
+  font-weight: 750;
+  text-align: center;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -91,4 +92,38 @@ a.course:hover {
 
   --color: var(--white);
   --fill: var(--plum);
+}
+
+.uxui0320 {
+  --color: blanchedalmond;
+  --shadow: firebrick;
+  --fill: coral;
+  --fill-alt: lightsalmon;
+  --size: 52px;
+  background:
+    linear-gradient(135deg, var(--fill-alt) 25%, transparent 25%) calc(-0.5 * var(--size)) 0,
+    linear-gradient(225deg, var(--fill-alt) 25%, transparent 25%) calc(-0.5 * var(--size)) 0,
+    linear-gradient(315deg, var(--fill-alt) 25%, transparent 25%),
+    linear-gradient(45deg, var(--fill-alt) 25%, transparent 25%);
+  background-size: var(--size) var(--size);
+  background-color: var(--fill);
+  font-size: 1.4em;
+  font-weight: 850;
+  text-shadow:
+    -1px 1px 0 var(--fill),
+    -2px 2px 0 var(--fill),
+    -3px 3px 0 var(--shadow),
+    -4px 4px 0 var(--shadow);
+  transform: rotate3d(1,1,1,-4deg) scale(1.05);
+  transition: box-shadow 300ms, transform 300ms;
+}
+.uxui0320:hover {
+  transform: none;
+}
+.uxui0320 small {
+  color: darkred;
+  font-size: 0.6em;
+  font-weight: 900;
+  text-shadow: none;
+  text-transform: uppercase;
 }
