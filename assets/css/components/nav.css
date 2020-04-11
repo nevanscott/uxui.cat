@@ -3,7 +3,7 @@ nav.primary {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   border-bottom: solid 2px var(--stroke);
   padding: 1rem;
 }
@@ -15,9 +15,17 @@ nav.primary {
 
 nav.main-nav {
   display: flex;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
 }
 
 nav.main-nav :not(:last-child) {
-  margin-right: 1em;
+  margin-right: 1.5em;
+}
+
+nav.main-nav a {
+  padding: 0.5em 0;
+  text-decoration: none;
 }
