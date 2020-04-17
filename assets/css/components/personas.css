@@ -5,11 +5,11 @@
 }
 
 .personas > * {
-  background: #EAEAEA;
+  background: var(--callout);
   padding: 0 1em;
 }
 .personas > *:nth-child(even) {
-  background: #F6F6F6;
+  background: var(--callout-alt);
 }
 
 .personas img {
