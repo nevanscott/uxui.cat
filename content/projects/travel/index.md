@@ -40,7 +40,7 @@ description: Design a new travel booking app to be launched on both Android and 
 
 ## Brief
 
-We are planning to launch a new product for booking travel. We  intend to generate revenue based on fees associated with the booking of flights. We want to start by launching a minimum viable product, but considering this is a competitive market to enter, we probably cannot compete solely on price—instead we need you to help us add value to the experience so that users may start adopting our platform.
+We are planning to launch a new product for booking travel. We  intend to generate revenue based on fees associated with the **booking of flights**. We want to start by launching a *minimum viable product*, but considering this is a competitive market to enter, we probably cannot compete solely on price—instead we need you to help us add value to the experience so that users may start adopting our platform.
 
 You will be designing a new app to be launched on both Android and iOS. For the sake of this exercise, assume that both apps will be built out by developers specializing in the respective platforms, and that they will be built natively. It's your job to:
 
@@ -150,6 +150,8 @@ To help you get started, we have already identified a few proto-personas that re
 
   </div>
 </div>
+
+Using these personas as a starting point, it could be a good idea to do a bit of original research to flesh these out in more detail. Our goal will be to provide a product that is useful to all of these personas, but you'll likely need to make a decision about who will serve as your "primary persona".
 
 
 ## Suggestions
