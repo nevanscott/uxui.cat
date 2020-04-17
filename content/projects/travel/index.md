@@ -46,7 +46,7 @@ You will be designing a new app to be launched on both Android and iOS. For the 
 
 * quickly prototype a key flow of the app
 * develop a visual identity to accompany it
-* translate both into expressions appropriate to each platform
+* translate the design to be appropriate for both platforms (iOS and Android)
 
 
 ## Proto-personas
