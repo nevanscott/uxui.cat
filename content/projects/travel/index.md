@@ -53,7 +53,7 @@ You will be designing a new app to be launched on both Android and iOS. For the 
 
 To help you get started, we have already identified a few proto-personas that represent the market needs we would like to meet.
 
-<div class="personas full-bleed row">
+<div class="personas full-bleed row wide-content">
   <div>
 
   ### Sofia

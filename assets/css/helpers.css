@@ -1,5 +1,10 @@
 .row {
+  --min: 15ch;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15ch, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), max-content));
   grid-gap: 3rem;
+}
+
+.wide-content {
+  --min: 30ch;
 }
