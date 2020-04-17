@@ -1,0 +1,17 @@
+.personas {
+  grid-gap: 1em 0;
+}
+
+.personas > * {
+  background: #EAEAEA;
+  padding: 0 1em;
+}
+.personas > *:nth-child(even) {
+  background: #F6F6F6;
+}
+
+.personas img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
