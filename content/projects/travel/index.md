@@ -164,6 +164,7 @@ To help you get started, we have already identified a few proto-personas that re
 * Digitized screens at high fidelity
 * Provide evidence for key decisions through research and testing
 * Show user flow
+* Include at least one animation
 
 
 ## Presentation
@@ -174,4 +175,5 @@ We should get a strong sense of:
 * Findings from research and how these informed your design
 * Variations of your design that you explored
 * Your design, including a prototype
+* How your design meets the business goals
 * Next steps
