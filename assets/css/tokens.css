@@ -6,6 +6,7 @@
   --font-headline: var(--font-sans);
   --font-title: var(--font-sans);
   --font-interface: var(--font-sans);
+  --font-caption: var(--font-sans);
 
   --background: white;
   --color: black;

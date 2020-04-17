@@ -1,4 +1,6 @@
 .personas {
+  font-family: var(--font-caption);
+  font-size: smaller;
   grid-gap: 1em 0;
 }
 
