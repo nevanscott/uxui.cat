@@ -3,10 +3,10 @@ body {
   border-top: solid 4px var(--active);
   color: var(--color);
   font-family: var(--font-text);
-  font-size: calc(0.4vw + 1em);
+  font-size: calc(0.3vw + 1em);
   margin: 0;
   padding: 0;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 a {
@@ -46,16 +46,18 @@ mark {
   font-weight: bolder;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-headline);
   line-height: 1.35;
 }
 h1 {
   font-family: var(--font-title);
 }
 h2 {
+  font-family: var(--font-headline);
+  font-weight: normal;
   margin-top: 2.5em;
 }
 h3 {
+  font-family: var(--font-subhead);
   margin-top: 1.5em;
 }
 p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {

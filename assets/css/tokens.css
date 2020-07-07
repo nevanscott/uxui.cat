@@ -2,9 +2,10 @@
   --font-sans: system-ui, sans-serif;
   --font-serif: Georgia, serif;
 
-  --font-text: var(--font-serif);
-  --font-headline: var(--font-sans);
+  --font-text: var(--font-sans);
   --font-title: var(--font-sans);
+  --font-headline: var(--font-serif);
+  --font-subhead: var(--font-sans);
   --font-interface: var(--font-sans);
   --font-caption: var(--font-sans);
 
