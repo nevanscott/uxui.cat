@@ -1,9 +1,9 @@
 {{ define "main" }}
   <main aria-role="main">
     {{ .Content }}
-    <h2>Journal</h2>
+    <h2>Blog</h2>
     <ul>
-    {{ range where site.RegularPages "Type" "journal" }}
+    {{ range where site.RegularPages "Type" "blog" }}
       <li>
         <h3>
           <a href="{{.Permalink}}">{{ .Title | markdownify }}</a>

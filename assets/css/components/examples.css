@@ -1,0 +1,24 @@
+.examples {
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, max-content));
+}
+
+.examples > * {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--highlight);
+}
+
+.examples img {
+  background-color: var(--highlight-alt);
+  object-fit: contain;
+  height: 15rem;
+}
+
+.examples figcaption {
+  padding: 1em;
+}
+
+.examples figcaption :first-child {
+  margin-top: 0;
+}

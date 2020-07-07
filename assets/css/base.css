@@ -60,7 +60,7 @@ h3 {
 }
 p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
-  max-width: 37rem;
+  max-width: 44rem;
 }
 
 figure {
