@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <header>
+      <div class="overtitle">
+        <a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a>
+      </div>
+      <h1>{{ .Title | markdownify }}</h1>
+      {{ with .Description }}
+        <p>{{ . | markdownify }}</p>
+      {{ end }}
+      {{ with .PublishDate }}
+        <p>
+          <small>Published {{ .Format "January 2, 2006" }}</small>
+        </p>
+      {{ end }}
+    </header>
+    {{ .Content }}
+    {{ partial "rubric/row.html" . }}
+    <footer>
+      <p><small>Last updated {{ .Lastmod.Format "January 2, 2006" }}</small></p>
+    </footer>
+  </main>
+{{ end }}

@@ -1,0 +1,25 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description -}}
+      <p>{{ . | markdownify }}<p>
+    {{- end }}
+    {{ .Content }}
+    {{ range .Pages }}
+      <article>
+        <h3>
+          <a href="{{.Permalink}}">{{ .Title | markdownify }}</a>
+          {{ with .Date }}
+            <small>{{ .Format "January 2, 2006" }}</small>
+          {{ end }}
+        </h3>
+        {{ with .Description -}}
+          <p>{{ . | markdownify }}<p>
+        {{- end }}
+        {{ if isset .Params "novice" -}}
+          {{ partial "rubric/row.html" . }}
+        {{- end }}
+      </article>
+    {{ end }}
+  </main>
+{{ end }}
