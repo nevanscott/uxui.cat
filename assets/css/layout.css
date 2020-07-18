@@ -1,7 +1,7 @@
 main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 0 1em;
+  grid-gap: 0 2rem;
   padding: 1rem;
 }
 @media screen and (min-width: 55ch) {
