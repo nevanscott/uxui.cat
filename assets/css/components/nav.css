@@ -13,6 +13,10 @@ nav.primary {
   }
 }
 
+nav.primary a.active {
+  text-decoration: underline;
+}
+
 nav.main-nav {
   display: flex;
   flex-wrap: wrap;
