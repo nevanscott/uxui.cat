@@ -5,4 +5,8 @@ novice: Conducted less than 6 user interviews.
 competent: Conducted 6–9 user interviews.
 proficient: Conducted 9–12 user interviews.
 expert: Conducted 13+ user interviews.
+topics:
+  - Interview
+  - Research Recruiting
+  - Snowball Recruiting
 ---

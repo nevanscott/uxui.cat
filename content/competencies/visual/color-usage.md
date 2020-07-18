@@ -5,4 +5,6 @@ novice: Color palette is used and applied throughout, but in ways that aren't wo
 competent: Colors are used appropriately throughout, with attention to color contrast. Color is applied consistently to mean certain things to the user.
 proficient: Colors are deployed very intentionally and meaningfully throughout, with attention to accessibility.
 expert: Colors are used expressively without distracting from clarity.
+topics:
+  - Color
 ---

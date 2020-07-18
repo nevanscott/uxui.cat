@@ -6,4 +6,8 @@ competent: Design matches look and feel throughout—color, type, iconography, p
 proficient: Design is seamlessly integrated. Everything joins together in a single unifying overall aesthetic.
 expert: >
   Design is consistently applied throughout, but also coherent: the look, feel, brand, copy, interactions, and animations all harmonize.
+topics:
+  - Heuristics
+  - Interface
+  - Brand
 ---
