@@ -7,6 +7,6 @@ proficient: Brand is well-defined and differentiated within its market.
 expert: Multiple brand positionings have been considered, with clear reasoning for the chosen direction in consideration of the market, business strategy, and user expectations.
 topics:
   - Brand
-  - Mood Board
+  - Moodboard
   - Style Tile
 ---
