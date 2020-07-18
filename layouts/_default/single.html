@@ -1,7 +1,11 @@
 {{ define "main" }}
   <main aria-role="main">
     <header>
-      <h1>{{ .Title | markdownify }}</h1>
+      {{ if isset .Params "link" -}}
+        <h1><a class="external" href="{{ .Params.link }}">{{ .Title | markdownify }}</a></h1>
+      {{- else -}}
+        <h1>{{ .Title | markdownify }}</h1>
+      {{- end }}
       {{ with .Description }}
         <p>{{ . | markdownify }}</p>
       {{ end }}
@@ -11,7 +15,11 @@
         </p>
       {{ end }}
     </header>
+    {{ partial "meta.html" . }}
     {{ .Content }}
+    {{ if isset .Params "novice" -}}
+      {{ partial "rubric/row.html" . }}
+    {{- end }}
     <footer>
       <p><small>Last updated {{ .Lastmod.Format "January 2, 2006" }}</small></p>
     </footer>
