@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <main aria-role="main">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description -}}
+      <p>{{ . | markdownify }}<p>
+    {{- end }}
+    {{ .Content }}
+    <div class="row full-bleed wide-content">
+      {{ range .Pages -}}
+        <article>
+          <h3>
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            {{ with .Date }}
+              <small>{{ .Format "January 2, 2006" }}</small>
+            {{ end }}
+          </h3>
+          {{ with .Description -}}
+            <p>{{ . | markdownify }}<p>
+          {{- end }}
+          <ul>
+          {{ range .Pages }}
+            <li>
+              <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
+            </li>
+          {{ end }}
+          </ul>
+        </article>
+      {{ end }}
+    </div>
+  </main>
+{{ end }}
