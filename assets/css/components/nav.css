@@ -3,7 +3,7 @@ nav.primary {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   border-bottom: solid 2px var(--stroke);
   padding: 1rem;
 }
