@@ -4,7 +4,7 @@ weight: 3
 description: Propose a new mobile app designed to support building (or breaking) a habit. Based on user research, you'll identify an opportunity for an app to improve people's day-to-day lives.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size

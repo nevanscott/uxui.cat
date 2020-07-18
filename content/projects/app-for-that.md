@@ -4,7 +4,7 @@ weight: 2
 description: Design a single-function "utility" app based on open-ended generative research.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size

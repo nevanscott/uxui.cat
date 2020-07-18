@@ -4,7 +4,7 @@ weight: 4
 description: Add a new feature to an existing product, as seamlessly as possible.
 ---
 
-<div class="row wide">
+<div class="wide deets row">
   <div>
 
   ### Team Size

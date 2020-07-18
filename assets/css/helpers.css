@@ -5,6 +5,35 @@
   grid-gap: 3rem;
 }
 
+.medium-content {
+  --min: 25ch;
+}
+
 .wide-content {
   --min: 30ch;
+}
+
+.muted {
+  color: var(--color-muted);
+}
+
+.muted a {
+  text-decoration: none;
+}
+
+.muted a:hover {
+  text-decoration: underline;
+  text-decoration-color: inherit;
+}
+
+.compact {
+  font-size: smaller;
+}
+
+ul.compact, .compact ul {
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }

@@ -1,6 +1,6 @@
 main {
   display: grid;
-  grid-template-columns: 1fr auto 2fr;
+  grid-template-columns: 1fr;
   grid-gap: 0 1em;
   padding: 1rem;
 }
@@ -9,19 +9,48 @@ main {
     padding: 5vw;
   }
 }
-
-main > * {
-  grid-column: 2;
+@media screen and (min-width: 70ch) {
+  main {
+    grid-template-columns: 3fr 1fr;
+  }
+  main > * {
+    grid-column: 1;
+  }
+  main > .row {
+    grid-column: 1 / span 2;
+  }
+  main > .full-bleed {
+    grid-column: 1 / span 2;
+  }
+  main > .wide {
+    grid-column: 1 / span 2;
+  }
+  main > aside {
+    grid-column: 2;
+  }
 }
-
-main > .full-bleed {
-  grid-column: 1 / span 3;
+@media screen and (min-width: 120ch) {
+  main {
+    grid-template-columns: 1fr 4fr 2fr;
+  }
+  main > * {
+    grid-column: 2;
+  }
+  main > .row {
+    grid-column: 2 / span 2;
+  }
+  main > .full-bleed {
+    grid-column: 1 / span 3;
+  }
+  main > .wide {
+    grid-column: 2 / span 2;
+  }
+  main > aside {
+    grid-column: 3;
+  }
 }
-
-main > .wide {
-  grid-column: 2 / span 2;
-}
-
-main > aside {
-  grid-column: 3;
+@media screen and (min-width: 160ch) {
+  main > .row {
+    grid-column: 2;
+  }
 }

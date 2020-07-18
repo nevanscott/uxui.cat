@@ -4,7 +4,7 @@ weight: 6
 description: Design an editorial website, for a magazine or newspaper of your choosing.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size

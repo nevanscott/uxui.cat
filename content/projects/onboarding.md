@@ -4,7 +4,7 @@ weight: 7
 description: Design a desktop web app for companies to use internally for their onboarding process.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size

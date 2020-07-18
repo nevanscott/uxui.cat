@@ -4,7 +4,7 @@ weight: 1
 description: Visit nearby transit stations to observe how users purchase tickets in context, then take your findings to make suggestions for how to improve the interface of the ticket machines.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size

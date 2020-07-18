@@ -4,7 +4,7 @@ weight: 5
 description: Design a new app to be launched on both Android and iOS.
 ---
 
-<div class="row">
+<div class="deets row">
   <div>
 
   ### Team Size
