@@ -53,4 +53,10 @@ main {
   main > .row {
     grid-column: 2;
   }
+  main > .full-bleed {
+    grid-column: 1 / span 3;
+  }
+  main > .wide {
+    grid-column: 2 / span 2;
+  }
 }
