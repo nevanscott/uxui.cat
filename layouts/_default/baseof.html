@@ -5,13 +5,13 @@
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ $style := resources.Get "main.css" | postCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
   </head>
   <body id="barba-wrapper">
     <header role="banner">
       <nav class="primary">
         <h1>
-          <a href="{{ .Site.Home.URL }}">Learn UX/UI</a> in Barcelona
+          <a href="{{ .Site.Home.RelPermalink }}">Learn UX/UI</a> in Barcelona
           <small>👋 with <a href="https://nevanscott.com/">Nevan Scott</a></small>
         </h1>
         {{ partial "nav.html" . }}
@@ -32,6 +32,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
     {{ $script := resources.Get "main.js" | minify | fingerprint }}
-    <script src="{{ $script.Permalink }}"></script>
+    <script src="{{ $script.RelPermalink }}"></script>
   </body>
 </html>

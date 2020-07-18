@@ -9,7 +9,7 @@
     {{ range .Pages }}
       <li>
         <h3>
-          <a href="{{.Permalink}}">{{ .Title | markdownify }}</a>
+          <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
           {{ with .Date }}
             <small>{{ .Format "January 2, 2006" }}</small>
           {{ end }}

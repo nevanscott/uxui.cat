@@ -18,7 +18,7 @@
   {{ with .GetTerms "topics" }}
     <ul class="tags">
       {{ range . }}
-        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
       {{ end }}
     </ul>
   {{ end }}
