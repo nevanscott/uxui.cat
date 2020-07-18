@@ -5,6 +5,20 @@
       <p>{{ . | markdownify }}<p>
     {{- end }}
     {{ .Content }}
-    {{ partial "by-section.html" . }}
+    <ul class="wide compact columns">
+    {{ range .Pages }}
+      <li>
+        <h3>
+          <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
+          {{ with .Date }}
+            <small>{{ .Format "January 2, 2006" }}</small>
+          {{ end }}
+        </h3>
+        {{ with .Description -}}
+          <p>{{ . | markdownify }}<p>
+        {{- end }}
+      </li>
+    {{ end }}
+    </ul>
   </main>
 {{ end }}
