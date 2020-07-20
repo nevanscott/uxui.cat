@@ -1,6 +1,6 @@
 footer[role=contentinfo] {
   background-color: var(--callout);
-  border-top: solid 2px var(--stroke);
+  border-top: solid 1px var(--stroke);
   color: var(--color-muted);
   font-size: smaller;
   padding: 2rem;
