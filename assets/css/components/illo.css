@@ -4,7 +4,7 @@
   margin: -3px;
 }
 
-.illo img {
+.illo img, .illo object {
   display: block;
   width: 100%;
   border-radius: 0.5rem;
