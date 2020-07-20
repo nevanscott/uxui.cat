@@ -6,6 +6,7 @@ nav.primary {
   align-items: baseline;
   border-bottom: solid 2px var(--stroke);
   padding: 1rem;
+  background-color: var(--callout);
 }
 @media screen and (min-width: 55ch) {
   nav.primary {
@@ -20,14 +21,12 @@ nav.primary a.active {
 nav.main-nav {
   display: flex;
   flex-wrap: wrap;
-  font-size: 0.7em;
+  font-size: 0.75em;
   font-weight: 700;
-  letter-spacing: 0.025em;
-  text-transform: uppercase;
 }
 
 nav.main-nav :not(:last-child) {
-  margin-right: 1.5em;
+  margin-right: 1em;
 }
 
 nav.main-nav a {

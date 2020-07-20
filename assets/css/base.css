@@ -1,6 +1,5 @@
 body {
   background-color: var(--background);
-  border-top: solid 4px var(--active);
   color: var(--color);
   font-family: var(--font-text);
   font-size: calc(0.3vw + 1em);

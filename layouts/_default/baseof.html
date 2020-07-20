@@ -17,7 +17,6 @@
       <nav class="primary">
         <h1>
           <a href="{{ .Site.Home.RelPermalink }}">Learn UX/UI</a> in Barcelona
-          <small>👋 with <a href="https://nevanscott.com/">Nevan Scott</a></small>
         </h1>
         {{ partial "nav.html" . }}
       </nav>
@@ -32,5 +31,14 @@
         {{ .Content }}
       </main>
     {{ end }}
+    <footer role="contentinfo">
+      <p>
+        <a href="https://github.com/nevanscott/uxui.cat">Github repo</a>
+        ·
+        © 2018–2020
+        <a href="http://nevanscott.com/">Nevan Scott</a>.
+      </p>
+      <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+    </footer>
   </body>
 </html>

@@ -10,17 +10,17 @@
   --font-caption: var(--font-sans);
 
   --background: white;
-  --color: black;
-  --color-muted: lightslategrey;
-  --stroke: whitesmoke;
+  --color: #3C4B4D;
+  --color-muted: #6F7E80;
+  --stroke: #DAE5E6;
   --fill: white;
-  --link: dodgerblue;
+  --link: #489DF1;
   --active: mediumblue;
   --highlight: lemonchiffon;
   --highlight-alt: peachpuff;
   --highlight-text: black;
-  --callout: #EAEAEA;
-  --callout-alt: #F6F6F6;
+  --callout: #F1F5F5;
+  --callout-alt: #CDD3D3;
 }
 
 @media (prefers-color-scheme: dark) {
