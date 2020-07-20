@@ -11,11 +11,11 @@
           <article>
             {{ if isset .Params "cover" }}
               {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
-              <a href="{{ .RelPermalink }}">
+              <a class="illo" href="{{ .RelPermalink }}">
                 <img src="{{ $cover.RelPermalink }}" alt="" />
               </a>
             {{ end }}
-            <h3 style="margin-top: 0">
+            <h3 style="margin-top: 0.75rem">
               <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
             </h3>
             {{ with .Description -}}
