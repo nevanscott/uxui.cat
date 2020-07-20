@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 120">
+  <defs>
+    <rect id="c" width="24" height="24" x="0" y="0" rx="12"/>
+    <rect id="e" width="24" height="24" x="0" y="0" rx="12"/>
+    <rect id="f" width="24" height="24" x="0" y="0" rx="12"/>
+    <rect id="h" width="24" height="24" x="0" y="0" rx="12"/>
+    <rect id="i" width="24" height="24" x="0" y="0" rx="12"/>
+    <rect id="k" width="24" height="24" x="0" y="0" rx="12"/>
+    <path id="a" d="M0 0h280v120H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#F1F5F5" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <g transform="translate(6 9)">
+        <g transform="rotate(90 14.5 14.5)">
+          <mask id="d" fill="#fff">
+            <use xlink:href="#c"/>
+          </mask>
+          <use fill="#F1F5F5" xlink:href="#c"/>
+          <g stroke="#6F7E80" stroke-linecap="square" mask="url(#d)">
+            <path d="M-7-9h36M-7 15h36M-7-6h36M-7 18h36M-7-3h36M-7 21h36M-7 0h36M-7 24h36M-7 3h36M-7 27h36M-7 6h36M-7 30h36M-7 9h36M-7 33h36M-7 12h36"/>
+          </g>
+          <use stroke="#6F7E80" stroke-width="2" xlink:href="#e"/>
+        </g>
+        <g transform="rotate(45 -21.71 33.04)">
+          <mask id="g" fill="#fff">
+            <use xlink:href="#f"/>
+          </mask>
+          <use fill="#F1F5F5" xlink:href="#f"/>
+          <g stroke="#6F7E80" stroke-linecap="square" mask="url(#g)">
+            <path d="M-7-9h36M-7 15h36M-7-6h36M-7 18h36M-7-3h36M-7 21h36M-7 0h36M-7 24h36M-7 3h36M-7 27h36M-7 6h36M-7 30h36M-7 9h36M-7 33h36M-7 12h36M-7 36h36"/>
+          </g>
+          <use stroke="#6F7E80" stroke-width="2" xlink:href="#h"/>
+        </g>
+        <g transform="rotate(-45 86.93 35.96)">
+          <mask id="j" fill="#fff">
+            <use xlink:href="#i"/>
+          </mask>
+          <use fill="#F1F5F5" xlink:href="#i"/>
+          <g stroke="#6F7E80" stroke-linecap="square" mask="url(#j)">
+            <path d="M-7-9h36M-7 15h36M-7-6h36M-7 18h36M-7-3h36M-7 21h36M-7 0h36M-7 24h36M-7 3h36M-7 27h36M-7 6h36M-7 30h36M-7 9h36M-7 33h36M-7 12h36M-7 36h36"/>
+          </g>
+          <use stroke="#6F7E80" stroke-width="2" xlink:href="#k"/>
+        </g>
+        <rect width="24" height="24" x="35" fill="#FFF" stroke="#6F7E80" stroke-width="2" rx="12"/>
+        <rect width="24" height="24" x="35" y="30" fill="#F1F5F5" stroke="#6F7E80" stroke-width="2" rx="12"/>
+        <rect width="24" height="24" x="35" y="60" fill="#CDD3D3" stroke="#6F7E80" stroke-width="2" rx="12"/>
+        <rect width="24" height="24" x="35" y="90" fill="#6F7E80" stroke="#6F7E80" stroke-width="2" rx="12"/>
+      </g>
+      <g fill="#6F7E80">
+        <path d="M90 11h116v15H90zM90 35h77v11H90zM90 60h77v3H90zM90 69h85v3H90zM90 77h68v3H90z"/>
+      </g>
+      <g transform="translate(90 93)">
+        <rect width="61" height="20" fill="#CDD3D3" stroke="#6F7E80" stroke-width="2" rx="2"/>
+        <path fill="#6F7E80" d="M13 9h36v3H13z"/>
+      </g>
+      <g transform="translate(206 58)">
+        <rect width="92" height="72" x="-1" y="-1" fill="#FFF" stroke="#6F7E80" stroke-width="2" rx="3"/>
+        <path fill="#6F7E80" d="M37 13h48v3H37zM37 23h30v2H37z"/>
+        <g stroke="#6F7E80" stroke-width="2" transform="translate(8 8)">
+          <circle cx="10.5" cy="10.5" r="10.5" fill="#F1F5F5"/>
+          <path fill="#FFF" d="M10.5 13a9.5 9.5 0 017.97 4.33 10.47 10.47 0 01-15.94 0A9.5 9.5 0 0110.5 13zm0-9a3.5 3.5 0 110 7 3.5 3.5 0 010-7z"/>
+        </g>
+        <rect width="75" height="15" x="8" y="43" fill="#F1F5F5" stroke="#6F7E80" stroke-width="2" rx="2"/>
+      </g>
+    </g>
+    <g stroke="#6F7E80" stroke-width="2" mask="url(#b)">
+      <g transform="translate(224 18)">
+        <circle cx="10.5" cy="10.5" r="10.5" fill="#F1F5F5"/>
+        <path fill="#FFF" d="M10.5 13a9.5 9.5 0 017.97 4.33 10.47 10.47 0 01-15.94 0A9.5 9.5 0 0110.5 13zm0-9a3.5 3.5 0 110 7 3.5 3.5 0 010-7z"/>
+      </g>
+    </g>
+    <g stroke="#489DF1" mask="url(#b)">
+      <path fill="#FFF" d="M238.5 47.5V35l9 7-5.5 1.5z"/>
+      <path fill="#489DF1" d="M234 46.5V34l9 7-5.5 1.5z"/>
+    </g>
+  </g>
+</svg>

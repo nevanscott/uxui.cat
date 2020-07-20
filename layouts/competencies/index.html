@@ -9,11 +9,14 @@
       <div class="row compact medium-content">
         {{ range .Pages -}}
           <article>
-            <h3>
+            {{ if isset .Params "cover" }}
+              {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
+              <a href="{{ .RelPermalink }}">
+                <img src="{{ $cover.RelPermalink }}" alt="" />
+              </a>
+            {{ end }}
+            <h3 style="margin-top: 0">
               <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-              {{ with .Date }}
-                <small>{{ .Format "January 2, 2006" }}</small>
-              {{ end }}
             </h3>
             {{ with .Description -}}
               <p>{{ . | markdownify }}<p>

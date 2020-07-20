@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 120">
+  <defs>
+    <path id="a" d="M0 0h280v120H0z"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#F1F5F5" xlink:href="#a"/>
+    <g mask="url(#b)">
+      <g transform="translate(155.36 15)">
+        <rect width="12" height="12" y="1" fill="#FFF" stroke="#489DF1" stroke-width="2" rx="2"/>
+        <rect width="12" height="12" y="61" fill="#FFF" stroke="#489DF1" stroke-width="2" rx="2"/>
+        <rect width="12" height="12" y="21" fill="#FFF" stroke="#6F7E80" stroke-width="2" rx="2"/>
+        <rect width="12" height="12" y="41" fill="#FFF" stroke="#6F7E80" stroke-width="2" rx="2"/>
+        <rect width="12" height="12" y="81" fill="#FFF" stroke="#6F7E80" stroke-width="2" rx="2"/>
+        <path fill="#489DF1" d="M25 5h66v4H25z"/>
+        <path fill="#6F7E80" d="M25 25h72v4H25zm0 20h69v4H25z"/>
+        <path fill="#489DF1" d="M25 65h66v4H25z"/>
+        <path fill="#6F7E80" d="M25 85h71v4H25z"/>
+        <path stroke="#489DF1" stroke-width="3" d="M2.64 5l4 4 9-9m-13 65l4 4 9-9"/>
+      </g>
+    </g>
+    <g stroke-width="2" mask="url(#b)">
+      <g transform="rotate(-45 55.33 17.84)">
+        <path fill="#CDD3D3" stroke="#6F7E80" d="M32 0a32 32 0 014 63.75V89a4 4 0 11-8 0V63.75A32 32 0 0132 0z"/>
+        <circle cx="32" cy="32" r="25" fill="#FFF" stroke="#6F7E80"/>
+        <path fill="#6F7E80" stroke="#506062" d="M28 80h8a2 2 0 012 2v41a5 5 0 01-5 5h-2a5 5 0 01-5-5V82c0-1.1.9-2 2-2z"/>
+      </g>
+    </g>
+  </g>
+</svg>
