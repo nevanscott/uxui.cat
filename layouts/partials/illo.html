@@ -1,0 +1,4 @@
+{{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
+<a class="illo" href="{{ .RelPermalink }}">
+  <object type="image/svg+xml" data="{{ $cover.RelPermalink }}"></object>
+</a>

@@ -21,6 +21,13 @@
   --highlight-text: black;
   --callout: #F1F5F5;
   --callout-alt: #CDD3D3;
+
+  --svg-white: white;
+  --svg-teal-100: #F1F5F5;
+  --svg-teal-200: #CDD3D3;
+  --svg-teal-300: #6F7E80;
+  --svg-teal-400: #506062;
+  --svg-blue: #489DF1;
 }
 
 @media (prefers-color-scheme: dark) {

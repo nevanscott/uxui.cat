@@ -10,10 +10,7 @@
         {{ range .Pages -}}
           <article>
             {{ if isset .Params "cover" }}
-              {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
-              <a class="illo" href="{{ .RelPermalink }}">
-                <object type="image/svg+xml" data="{{ $cover.RelPermalink }}"></object>
-              </a>
+              {{ partial "illo.html" . }}
             {{ end }}
             <h3 style="margin-top: 0.75rem">
               <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
