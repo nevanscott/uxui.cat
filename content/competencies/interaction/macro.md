@@ -1,5 +1,5 @@
 ---
-title: Macro-interactions (screen to screen)
+title: Macro-interactions
 incomplete: Prototype is incomplete
 novice: Screen to screen interactions are overly complex or require too many steps.
 competent: Screen to screen interactions proceed in a logical flow which has been minimized without impeding functionality.
