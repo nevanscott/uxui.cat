@@ -1,7 +1,7 @@
 .row {
   --min: 15ch;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--min), max-content));
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
   grid-gap: 1rem 2rem;
 }
 
