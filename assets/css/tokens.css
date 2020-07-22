@@ -1,6 +1,6 @@
 :root {
   --font-sans: system-ui, sans-serif;
-  --font-serif: Georgia, serif;
+  --font-serif: ui-serif, Georgia, serif;
 
   --font-text: var(--font-sans);
   --font-title: var(--font-sans);
