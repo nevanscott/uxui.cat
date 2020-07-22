@@ -5,18 +5,20 @@
       <p>{{ . | markdownify }}<p>
     {{- end }}
     {{ .Content }}
-    <ul class="wide compact columns">
+    <ul class="wide compact row wide-content">
     {{ range .Pages }}
       <li>
-        <h3>
-          <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
-          {{ with .Date }}
-            <small>{{ .Format "January 2, 2006" }}</small>
-          {{ end }}
-        </h3>
-        {{ with .Description -}}
-          <p>{{ . | markdownify }}<p>
-        {{- end }}
+        <article>
+          <h3>
+            <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
+            {{ with .Date }}
+              <small>{{ .Format "January 2, 2006" }}</small>
+            {{ end }}
+          </h3>
+          {{ with .Description -}}
+            <p>{{ . | markdownify }}<p>
+          {{- end }}
+        </article>
       </li>
     {{ end }}
     </ul>
