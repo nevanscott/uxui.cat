@@ -23,5 +23,6 @@
     <footer>
       <p><small>Last updated {{ .Lastmod.Format "January 2, 2006" }}</small></p>
     </footer>
+    {{ partial "related.html" . }}
   </main>
 {{ end }}

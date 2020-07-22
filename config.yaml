@@ -9,6 +9,17 @@ taxonomies:
   author: authors
   source: sources
 
+related:
+  threshold: 80
+  includeNewer: false
+  toLower: false
+  indices:
+  - name: topics
+    weight: 100
+  - name: date
+    weight: 10
+
+
 markup:
   goldmark:
     renderer:
