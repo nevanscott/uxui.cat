@@ -20,13 +20,14 @@ ul.tags li:last-child {
 }
 
 .tags a {
-  background-color: var(--highlight);
-  border: none;
-  border-radius: 2px;
-  padding: 2px 0.5em;
+  border: solid 2px;
+  border-radius: 2em;
+  font-weight: 600;
+  padding: 2px 0.7em;
+  text-decoration: none;
   transition: background-color 300ms;
 }
 
 .tags a:hover {
-  background-color: var(--highlight-alt);
+  background-color: var(--callout);
 }
