@@ -4,6 +4,10 @@ title: UX/UI Barcelona
 
 sectionPagesMenu: main
 
+params:
+  title: UX/UI Barcelona
+  description: Learn User Experience and Interaction Design in Barcelona
+
 taxonomies:
   topics: topics
   author: authors
