@@ -1,6 +1,7 @@
 ---
 title: Lean UX
 link: 'https://leanuxbook.com'
+cover: cover.jpg
 topics:
   - Agile
   - Lean

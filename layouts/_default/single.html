@@ -1,5 +1,11 @@
 {{ define "main" }}
   <main aria-role="main">
+    {{ if isset .Params "cover" }}
+      {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
+      <a class="book-cover" href="{{ .Params.link }}">
+        <img src="{{ $cover.RelPermalink }}" alt="" />
+      </a>
+    {{ end }}
     <header>
       {{ if isset .Params "link" -}}
         <h1><a class="external" href="{{ .Params.link }}">{{ .Title | markdownify }}</a></h1>
