@@ -1,17 +1,10 @@
 ---
 ---
 
-# Welcome!
+# 👋 Thanks for stopping by!
 
-Generally speaking, I make a website for each cohort I teach. Peruse around to see what kinds of things we do in class, or take a look at <a href="{{< ref "projects" >}}">some of the projects</a> I like to assign.
+My name is Nevan, and I'm a design teacher based in Barcelona, Spain, and this is my collection of stuff related to my field(s?) of study. If you're curious about what I teach, I'd recommend starting with the <a href="{{< ref "competencies" >}}">competencies list</a>, or <a href="{{< ref "projects" >}}">some of the projects</a> I like to assign.
 
-<div class="full-bleed">
-
-  ## Course websites
-
-  {{< courselist >}}
-
-</div>
 
 ## Interested in studying with me? 🌴
 
