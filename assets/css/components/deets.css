@@ -1,4 +1,9 @@
 .deets {
+  --max: max-content;
   font-family: var(--font-caption);
   font-size: smaller;
+}
+
+.deets li small {
+  display: block;
 }

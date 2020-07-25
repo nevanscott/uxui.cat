@@ -4,7 +4,7 @@ weight: 7
 description: Design a desktop web app for companies to use internally for their onboarding process.
 ---
 
-<div class="deets row">
+<div class="deets row wide">
   <div>
 
   ### Team Size
@@ -82,7 +82,7 @@ Considerations as you investigate how companies currently accomplish onboarding:
 
 ## Suggested schedule
 
-<div class="schedule row full-bleed">
+<div class="schedule row wide">
   <div>
 
   ### Day 1

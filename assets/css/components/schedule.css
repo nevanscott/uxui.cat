@@ -5,11 +5,11 @@
 }
 
 .schedule > * {
-  background: var(--highlight);
+  background: var(--callout);
   padding: 0 1em;
 }
 .schedule > *:nth-child(even) {
-  background: var(--highlight-alt);
+  background: var(--callout-alt);
 }
 
 .schedule ul {
