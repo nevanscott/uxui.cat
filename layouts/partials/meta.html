@@ -1,15 +1,17 @@
 <div class="meta">
-  {{ with .Params.authors }}
+  {{ with .GetTerms "authors" }}
     <cite class="byline">
       {{- "" -}}by {{ "" -}}
       {{- range $i, $author := . -}}
         {{- if $i -}}, {{ end -}}
-        <a class="author" href="/authors/{{ $author | urlize }}/">{{ $author }}</a>
+        <a class="author" href="{{ $author.RelPermalink }}/">{{ $author.LinkTitle }}</a>
       {{- end -}}
     </cite>
   {{ end }}
-  {{ with .Params.sources }}
-    <span class="source">from <a class="source-title" href="/sources/{{ . | urlize }}/">{{ . }}</a></span>
+  {{ with .GetTerms "sources" }}
+    {{ range . }}
+      <span class="source">from <a class="source-title" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></span>
+    {{ end }}
   {{ end }}
   {{ with .Params.link }}
     {{ $url := urls.Parse . }}

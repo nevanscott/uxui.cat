@@ -17,12 +17,12 @@
         <h3>
           <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
         </h3>
-        {{ with .Params.authors }}
+        {{ with .GetTerms "authors" }}
           <cite class="byline">
             {{- "" -}}by {{ "" -}}
             {{- range $i, $author := . -}}
               {{- if $i -}}, {{ end -}}
-              {{ $author }}
+              <a class="author" href="{{ $author.RelPermalink }}/">{{ $author.LinkTitle }}</a>
             {{- end -}}
           </cite>
         {{ end }}
