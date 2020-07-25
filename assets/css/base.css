@@ -6,6 +6,24 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+* {
+    scrollbar-width: auto;
+    scrollbar-color: var(--stroke) var(--callout);
+}
+::-webkit-scrollbar-track {
+    background: var(--callout);
+    padding: 0 1px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--stroke);
+    border-radius: 6px;
+    border: 0;
 }
 
 a {
