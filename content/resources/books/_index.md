@@ -1,3 +1,4 @@
 ---
 title: Books
+layout: books
 ---

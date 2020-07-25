@@ -1,0 +1,36 @@
+.books {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  --min: 20ch;
+  --max: 1fr;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--min), var(--max)));
+  grid-gap: 2rem;
+  font-size: smaller;
+}
+
+.books li > * {
+  display: block;
+  margin: 0;
+}
+
+.books li > * + * {
+  margin-top: 0.25rem;
+}
+
+.books .book-cover img {
+  box-shadow:
+    0 0 0 2px var(--background),
+    0 0 0 6px var(--callout);
+  display: block;
+  max-height: auto;
+  margin-bottom: 1rem;
+  transition: box-shadow 300ms;
+}
+
+.books .book-cover:hover img {
+  box-shadow:
+    0 0 0 2px var(--background),
+    0 0 0 6px var(--active);
+}
