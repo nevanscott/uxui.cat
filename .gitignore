@@ -2,3 +2,5 @@
 /public
 /resources
 .cache
+
+.DS_Store
