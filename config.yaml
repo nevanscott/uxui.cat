@@ -18,10 +18,14 @@ related:
   includeNewer: false
   toLower: false
   indices:
-  - name: topics
-    weight: 100
-  - name: date
-    weight: 10
+    - name: topics
+      weight: 100
+    - name: authors
+      weight: 80
+    - name: sources
+      weight: 20
+    - name: date
+      weight: 10
 
 
 markup:
