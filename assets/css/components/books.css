@@ -19,18 +19,28 @@
   margin-top: 0.25rem;
 }
 
-.books .book-cover img {
+.books .book-cover {
   box-shadow:
     0 0 0 2px var(--background),
     0 0 0 6px var(--callout);
-  display: block;
-  max-height: auto;
   margin-bottom: 1rem;
   transition: box-shadow 300ms;
 }
-
-.books .book-cover:hover img {
+.books .book-cover:hover {
   box-shadow:
     0 0 0 2px var(--background),
     0 0 0 6px var(--active);
+}
+
+.books .book-cover img {
+  display: block;
+  max-height: none;
+}
+
+.books .book-cover img.sepia {
+  filter: sepia(80%) hue-rotate(80deg) saturate(20%) contrast(110%);
+  transition: filter 300ms;
+}
+.books .book-cover:hover img.sepia {
+  filter: none;
 }
