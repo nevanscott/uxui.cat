@@ -1,11 +1,67 @@
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . }}
 {{ with $related }}
-<h3>See Also</h3>
-<ul>
-	{{ range . }}
-	<li>
-		<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-	</li>
-	{{ end }}
-</ul>
+<h2>See Also</h2>
+{{ range .GroupBy "Section" }}
+  {{ with $.Site.GetPage "section" .Key }}
+    <h3>{{ .Title | markdownify }}</h3>
+  {{ else }}
+    <h3>{{ .Key | title }}</h3>
+  {{ end }}
+  {{ if eq .Key "resources" }}
+    {{ range .Pages.GroupBy "Parent" }}
+      <h4>{{ .Key.Title }}</h4>
+      {{ if eq .Key.Title "Books" }}
+        <ul class="books">
+        {{ range .Pages }}
+          <li>
+            {{ if isset .Params "cover" }}
+              {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
+              <a class="book-cover" href="{{ .RelPermalink }}">
+                <img src="{{ $cover.RelPermalink }}" loading="lazy" alt="" />
+              </a>
+            {{ end }}
+            <h3>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </h3>
+            {{ with .GetTerms "authors" }}
+              <cite class="byline">
+                {{- "" -}}by {{ "" -}}
+                {{- range $i, $author := . -}}
+                  {{- if $i -}}, {{ end -}}
+                  <a class="author" href="{{ $author.RelPermalink }}/">{{ $author.LinkTitle }}</a>
+                {{- end -}}
+              </cite>
+            {{ end }}
+            {{ with .Description -}}
+              <p>{{ . | markdownify }}<p>
+            {{- end }}
+          </li>
+        {{ end }}
+      </ul>
+      {{ else }}
+        <ul>
+            {{ range .Pages }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            </li>
+            {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ if eq .Key "competencies" }}
+    <ul>
+        {{ range .Pages.GroupBy "Parent" }}
+          {{ range .Pages }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                <strong><small>{{ .Parent.Title }}</small></strong>
+                {{ .Title | markdownify }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
 {{ end }}
