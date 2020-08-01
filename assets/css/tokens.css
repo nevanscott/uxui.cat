@@ -33,12 +33,12 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1A1A1A;
-    --color: white;
-    --color-muted: #AAA;
+    --color: #BBB;
+    --color-muted: #999;
     --stroke: #333;
     --fill: #1A1A1A;
-    --link: mediumblue;
-    --active: dodgerblue;
+    --link: dodgerblue;
+    --active: white;
     --highlight: #0F0F0F;
     --highlight-alt: #090909;
     --highlight-text: gold;
