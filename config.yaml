@@ -34,3 +34,7 @@ markup:
       unsafe: true
 
 enableGitInfo: true
+
+frontmatter:
+  date: ["date", "publishDate", "lastmod", ":git", ":fileModTime"]
+  lastmod: ["lastmod", ":fileModTime", ":default"]
