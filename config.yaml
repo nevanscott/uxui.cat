@@ -36,5 +36,5 @@ markup:
 enableGitInfo: true
 
 frontmatter:
-  date: ["date", "publishDate", "lastmod", ":fileModTime", ":git"]
-  lastmod: ["lastmod", ":fileModTime", ":default"]
+  date: ["date", "publishDate", "lastmod", ":git"]
+  lastmod: ["lastmod", ":git", ":default"]
