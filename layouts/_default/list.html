@@ -10,7 +10,7 @@
       <li>
         <h3>
           <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
-          {{ with .Date }}
+          {{ with .PublishDate }}
             <small>{{ .Format "January 2, 2006" }}</small>
           {{ end }}
         </h3>
