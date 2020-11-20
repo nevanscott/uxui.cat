@@ -26,10 +26,12 @@ nav.breadcrumb {
   margin: 0 0.5em;
 }
 .breadcrumb a {
-  border: none;
-  text-decoration: none;
-  text-decoration-color: currentColor;
+  text-decoration-color: var(--stroke);
 }
 .breadcrumb a:hover {
-  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.breadcrumb .active a {
+  text-decoration: none;
 }
