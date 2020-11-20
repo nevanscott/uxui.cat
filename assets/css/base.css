@@ -2,7 +2,7 @@ body {
   background-color: var(--background);
   color: var(--color);
   font-family: var(--font-text);
-  font-size: calc(0.25vw + 1em);
+  font-size: var(--font-size);
   margin: 0;
   padding: 0;
   line-height: 1.5;
