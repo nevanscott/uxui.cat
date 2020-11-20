@@ -52,7 +52,7 @@ You will be researching the market and meeting with employees to determine the n
 * Managers of the organizations that make the purchasing decisions, so you will need to convince them that this is a valuable service
 * Employees of the organizations who will actually be using the service
 
-For this project, you may consider “organizations”to include for-profit companies, nonprofits, and NGOs. “Employees” include people who work for or with the organization. This includes part-time employees, contractors, vendors, interns, and unpaid volunteers.
+For this project, you may consider “organizations” to include for-profit companies, nonprofits, and NGOs. “Employees” include people who work for or with the organization. This includes part-time employees, contractors, vendors, interns, and unpaid volunteers.
 
 Examples of SaaS products for reference:
 
