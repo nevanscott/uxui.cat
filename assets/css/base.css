@@ -84,6 +84,14 @@ p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {
   max-width: 44rem;
 }
 
+ol {
+  list-style: decimal;
+}
+ol ol {
+  list-style: lower-alpha;
+}
+
+
 table {
   border-collapse: collapse;
   margin: -1em;
