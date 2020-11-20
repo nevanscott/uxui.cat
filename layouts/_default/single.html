@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <main aria-role="main">
+  <main role="main">
     {{ if isset .Params "cover" }}
       {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
       <a class="book-cover" href="{{ .Params.link }}">
