@@ -212,7 +212,7 @@ Your report should serve as a more detailed standalone document representing you
     3. Findings (key insights) - pain points
 3. Problem definition
     1. Problem statement (this product seeks to solve X for user Y by doing Z)
-    2. Sser personas
+    2. User personas
     3. User journey
 4. Design iterations and usability testing results
 5. Final product screenshots with annotations (should follow demo)
