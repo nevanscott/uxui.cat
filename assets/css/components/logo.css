@@ -1,7 +1,8 @@
 .logo {
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 1.2;
+  font-family: var(--font-logo);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 .logo svg {

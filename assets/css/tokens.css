@@ -13,6 +13,7 @@
   --font-subhead: var(--font-sans);
   --font-interface: var(--font-sans);
   --font-caption: var(--font-sans);
+  --font-logo: var(--font-sans);
 
   --background: white;
   --color: #3C4B4D;
