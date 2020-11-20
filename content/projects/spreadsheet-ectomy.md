@@ -87,7 +87,7 @@ Considerations as you investigate how organizations currently work with spreadsh
 
 ## Suggestions
 
-* Expand your research to at least 2-3 organizations to try to find as much variety of information and needs as you can.
+* Expand your research to at least 3 organizations to try to find as much variety of information and needs as you can.
 * Find multiple stakeholders, such as managers, employees (preferably low-level), outside contractors they work with, to get as many perspectives on this spreadsheet problem as possible.
 * Look to LinkedIn, Slack, or leverage your existing networks to find potential contacts and interviewees.
 * Run usability tests with real users—try scheduling these in advance.
