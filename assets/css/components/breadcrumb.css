@@ -27,8 +27,9 @@ nav.breadcrumb {
 }
 .breadcrumb a {
   border: none;
-  text-decoration: underline;
-}
-.breadcrumb .active a {
   text-decoration: none;
+  text-decoration-color: currentColor;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
 }
