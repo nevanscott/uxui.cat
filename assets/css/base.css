@@ -55,6 +55,7 @@ aside {
 }
 small {
   color: var(--color-muted);
+  font-weight: 300;
 }
 mark {
   background-color: var(--highlight);
