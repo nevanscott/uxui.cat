@@ -231,4 +231,4 @@ Your report should serve as a more detailed standalone document representing you
 
 ## Landing Page Mockup
 
-Optional, but encouraged! This should be a mockup of a single-page website in desktop layout (include responsive version as an extra bonus) that users would visit to consider purchasing your product.
+Optional, but encouraged! This should be a mockup of a single-page website in desktop layout (include responsive version as an extra bonus) that users would visit to consider purchasing your product. If you want some extra practice with HTML and CSS this could be a good opportunity to try building out the landing page (even after the project is finished).
