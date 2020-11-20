@@ -120,13 +120,13 @@ Considerations as you investigate how organizations currently work with spreadsh
   * Continue interviews and observation
   * Affinity diagram
   * Document research findings in presentation and report
+  * User Personas
+  * Problem Statement
   </div>
   <div>
 
   ### Day 4
 
-  * User Personas
-  * Problem Statement
   * Feature prioritization
   * Task Analysis
   * Scenarios
