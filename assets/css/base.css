@@ -5,7 +5,7 @@ body {
   font-size: var(--font-size);
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  line-height: var(--line-height);
   scroll-behavior: smooth;
 }
 
@@ -63,14 +63,15 @@ mark {
   font-weight: bolder;
 }
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1.35;
+  line-height: var(--line-height-headline);
 }
 h1 {
   font-family: var(--font-title);
 }
 h2 {
   font-family: var(--font-headline);
-  font-weight: 600;
+  font-weight: 325;
+  font-optical-sizing: auto;
   margin-top: 2.5em;
 }
 h3 {
