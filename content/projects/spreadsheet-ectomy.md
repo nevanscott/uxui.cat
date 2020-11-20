@@ -208,7 +208,7 @@ Your report should serve as a more detailed standalone document representing you
 1. Hypothesis and goal (spreadsheets are a problem / don't solve the problem they intend to / create more problems than they solve)
 2. Research (how you validated this hypothesis)
     1. Methodology
-    2. Sample questions / interview subjects / competitors
+    2. Sample questions / interview subjects / benchmarking
     3. Findings (key insights) - pain points
 3. Problem definition
     1. Problem statement (this product seeks to solve X for user Y by doing Z)
