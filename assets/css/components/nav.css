@@ -3,19 +3,19 @@ nav.primary {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   border-bottom: solid 1px var(--stroke);
-  padding: 0.75rem;
+  padding: 0 0.75rem;
   background-color: var(--callout);
 }
 @media screen and (min-width: 55ch) {
   nav.primary {
-    padding: 0.75rem 5vw;
+    padding: 0 5vw;
   }
 }
 
-nav.primary a.active {
-  text-decoration: underline;
+nav.primary a {
+  padding: 0.75rem 0;
 }
 
 nav.main-nav {
@@ -26,10 +26,22 @@ nav.main-nav {
 }
 
 nav.main-nav :not(:last-child) {
-  margin-right: 1em;
 }
 
 nav.main-nav a {
-  padding: 0.25em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.75em 1em;
   text-decoration: none;
+}
+
+nav.main-nav a:hover {
+  background: var(--stroke);
+}
+
+nav.primary a.active {
+  border-bottom: solid 3px var(--active);
+  margin-bottom: -2px;
+  border-top: solid 1px rgba(0,0,0,0);
 }
