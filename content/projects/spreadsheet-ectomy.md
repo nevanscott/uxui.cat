@@ -184,9 +184,9 @@ Considerations as you investigate how organizations currently work with spreadsh
 
 ## Presentation
 
-You will 6–8 minutes to present to a guest review panel of 1–2 professional designers. Give the presentation as a pitch for your product to prospective customers. then expect a conversation with feedback afterward where you may take questions. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of your job interviews.
+You will 6–8 minutes to present to and get one-on-one feedback from a professional designer who will act as a guest reviewer. Give the presentation as a pitch for your product to prospective customers. then expect a conversation with feedback afterward where you may take questions. Think of this as an opportunity to get an outside opinion from someone who is actively and currently working in the field. Working in a high pressure situation in a safe environment is going to be great practice for you ahead of your job interviews.
 
-You'll be meeting with the guest reviewer(s) in the afternoon. However, your report PDF is due at the beginning of the day so that we can forward it to the guest reviewer(s) ahead of time to give them the opportunity to review it, should they be able.
+You'll be meeting with the guest reviewer in the afternoon. However, your report PDF is due at the beginning of the day so that we can forward it to the guest reviewer ahead of time to give them the opportunity to review it, should they be able.
 
 You should be prepared to answer the following questions, and your research & design report should include:
 
