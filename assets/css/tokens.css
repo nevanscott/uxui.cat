@@ -7,7 +7,7 @@
   --line-height: 1.4;
   --line-height-headline: 1.2;
 
-  --font-text: var(--font-sans);
+  --font-text: var(--font-serif);
   --font-title: var(--font-sans);
   --font-headline: var(--font-serif);
   --font-subhead: var(--font-sans);
