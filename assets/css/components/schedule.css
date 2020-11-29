@@ -2,10 +2,13 @@
   font-family: var(--font-caption);
   font-size: smaller;
   grid-gap: 1em 0;
+  display: flex;
+  overflow-x: auto;
 }
 
 .schedule > * {
   background: var(--callout);
+  flex: 1 0 10em;
   padding: 0 1em;
 }
 .schedule > *:nth-child(even) {
