@@ -10,75 +10,70 @@
     </mask>
     <use fill="#F1F5F5" xlink:href="#a"/>
     <g mask="url(#b)">
-      <g transform="translate(-51 9)">
-        <path fill="#6F7E80" stroke="#506062" stroke-width="2" d="M10.26 0h89.48c3.57 0 4.86.37 6.17 1.07 1.3.7 2.32 1.72 3.02 3.02.7 1.3 1.07 2.6 1.07 6.17v189.48c0 3.57-.37 4.86-1.07 6.17a7.27 7.27 0 01-3.02 3.02c-1.3.7-2.6 1.07-6.17 1.07H10.26c-3.57 0-4.86-.37-6.17-1.07a7.27 7.27 0 01-3.02-3.02c-.7-1.3-1.07-2.6-1.07-6.17V10.26C0 6.69.37 5.4 1.07 4.09a7.27 7.27 0 013.02-3.02C5.4.37 6.7 0 10.26 0z"/>
-        <rect width="34" height="4" x="38" y="4" fill="#6F7E80" stroke="#506062" stroke-width="2" rx="2" transform="matrix(1 0 0 -1 0 12)"/>
-        <g transform="translate(4 12)">
-          <path fill="#FFF" stroke="#506062" stroke-width="2" d="M0 0h102v182H0z"/>
-          <mask id="d" fill="#fff">
-            <use xlink:href="#c"/>
-          </mask>
-          <use fill="#FFF" xlink:href="#c"/>
-          <g mask="url(#d)">
-            <path fill="#F1F5F5" d="M1 19h100v162H1z"/>
-            <g fill="#FFF" stroke="#6F7E80" stroke-width="2" transform="translate(7 27)">
-              <rect width="90" height="28" x="-1" y="-1" rx="1"/>
-              <rect width="90" height="28" x="-1" y="33" rx="1"/>
-              <rect width="90" height="28" x="-1" y="67" rx="1"/>
-            </g>
-            <g>
-              <path fill="#FFF" d="M1 1h100v18H1z"/>
-              <path stroke="#6F7E80" stroke-linecap="square" stroke-width="2" d="M2 19.5h98"/>
-              <path stroke="#6F7E80" stroke-width="2" d="M87 10h10m-5-5v10"/>
-              <path fill="#6F7E80" d="M23 7h48v8H23z"/>
-            </g>
+      <g transform="translate(-47 21)">
+        <path stroke="#6F7E80" stroke-width="2" fill="#FFF" d="M0 0h102v182H0z"/>
+        <mask id="d" fill="#fff">
+          <use xlink:href="#c"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#c"/>
+        <g mask="url(#d)">
+          <path fill="#F1F5F5" d="M1 19h100v162H1z"/>
+          <g transform="translate(7 27)" fill="#FFF" stroke="#CDD3D3" stroke-width="2">
+            <rect x="-1" y="-1" width="90" height="28" rx="1"/>
+            <rect x="-1" y="33" width="90" height="28" rx="1"/>
+            <rect x="-1" y="67" width="90" height="28" rx="1"/>
+          </g>
+          <g>
+            <path fill="#FFF" d="M1 1h100v18H1z"/>
+            <path stroke="#6F7E80" stroke-width="2" stroke-linecap="square" d="M2 19.5h98"/>
+            <path d="M87 10h10m-5-5v10" stroke="#6F7E80" stroke-width="2"/>
+            <path fill="#6F7E80" d="M23 7h48v8H23z"/>
           </g>
         </g>
       </g>
     </g>
-    <g stroke="#489DF1" stroke-width="3" mask="url(#b)">
-      <g transform="translate(28 18)">
-        <rect width="34" height="26" rx="2"/>
-        <path d="M34.5 13.5h9"/>
+    <g mask="url(#b)" stroke="#489DF1" stroke-width="3">
+      <g transform="translate(29 15)">
+        <circle cx="16" cy="16" r="16"/>
+        <path d="M32.5 16.5h10"/>
       </g>
     </g>
     <g mask="url(#b)">
-      <path stroke="#489DF1" stroke-width="3" d="M76.5 26l11 11m0-11l-11 11"/>
+      <path d="M76.5 26l11 11m0-11l-11 11" stroke="#489DF1" stroke-width="3"/>
       <g fill="#6F7E80">
         <path d="M91.5 31h56v2h-56zM91.5 39h66v2h-66zM91.5 47h43v2h-43z"/>
       </g>
     </g>
     <g mask="url(#b)">
-      <path fill="#6F7E80" stroke="#506062" stroke-width="2" d="M175.26-81h89.48c3.57 0 4.86.37 6.17 1.07 1.3.7 2.32 1.72 3.02 3.02.7 1.3 1.07 2.6 1.07 6.17v189.48c0 3.57-.37 4.86-1.07 6.17a7.27 7.27 0 01-3.02 3.02c-1.3.7-2.6 1.07-6.17 1.07h-89.48c-3.57 0-4.86-.37-6.17-1.07a7.27 7.27 0 01-3.02-3.02c-.7-1.3-1.07-2.6-1.07-6.17V-70.74c0-3.57.37-4.86 1.07-6.17a7.27 7.27 0 013.02-3.02c1.3-.7 2.6-1.07 6.17-1.07z"/>
       <g transform="translate(169 -69)">
-        <path fill="#FFF" stroke="#506062" stroke-width="2" d="M0 0h102v182H0z"/>
+        <path stroke="#6F7E80" stroke-width="2" fill="#FFF" d="M0 0h102v182H0z"/>
         <mask id="f" fill="#fff">
           <use xlink:href="#e"/>
         </mask>
         <use fill="#FFF" xlink:href="#e"/>
         <g mask="url(#f)">
           <path fill="#F1F5F5" d="M1 19h100v162H1z"/>
-          <g fill="#FFF" stroke="#6F7E80" stroke-width="2" transform="translate(7 27)">
-            <rect width="90" height="28" x="-1" y="33" rx="1"/>
-            <rect width="90" height="28" x="-1" y="67" rx="1"/>
-            <rect width="90" height="28" x="-1" y="101" rx="1"/>
-            <rect width="90" height="28" x="-1" y="135" rx="1"/>
+          <g transform="translate(7 27)" fill="#FFF" stroke="#CDD3D3" stroke-width="2">
+            <rect x="-1" y="33" width="90" height="28" rx="1"/>
+            <rect x="-1" y="67" width="90" height="28" rx="1"/>
+            <rect x="-1" y="101" width="90" height="28" rx="1"/>
+            <rect x="-1" y="135" width="90" height="28" rx="1"/>
           </g>
-          <path fill="#CDD3D3" stroke="#6F7E80" stroke-width="2" d="M84 165a9 9 0 100-18 9 9 0 000 18zm-5-9h10m-5-5v10"/>
+          <path d="M84 165a9 9 0 100-18 9 9 0 000 18zm-5-9h10m-5-5v10" stroke="#6F7E80" stroke-width="2" fill="#CDD3D3"/>
         </g>
       </g>
     </g>
-    <g stroke="#489DF1" stroke-width="3" mask="url(#b)">
-      <g transform="translate(158 74)">
-        <rect width="30" height="26" x="80" rx="2"/>
+    <g mask="url(#b)" stroke="#489DF1" stroke-width="3">
+      <g transform="translate(157 71)">
+        <circle cx="96" cy="16" r="16"/>
         <path d="M.5 16.5L80 16"/>
       </g>
     </g>
     <g mask="url(#b)">
       <g fill="#6F7E80">
-        <path d="M91.5 88h58v2h-58zM91.5 96h62v2h-62zM91.5 104h29v2h-29z"/>
+        <path d="M91.5 86h58v2h-58zM91.5 94h62v2h-62zM91.5 102h29v2h-29z"/>
       </g>
-      <path stroke="#489DF1" stroke-width="3" d="M76 86.5l5.5 5.5 9-10.5"/>
+      <path stroke="#489DF1" stroke-width="3" d="M76 84.5l5.5 5.5 9-10.5"/>
     </g>
   </g>
 </svg>
