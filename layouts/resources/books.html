@@ -1,17 +1,20 @@
 {{ define "main" }}
   <main role="main">
-    <h1>{{ .Title }}</h1>
+    <h1 class="full-bleed">{{ .Title }}</h1>
     {{ with .Description -}}
       <p>{{ . | markdownify }}<p>
     {{- end }}
     {{ .Content }}
-    <ul class="books wide">
+    <ul class="books full-bleed">
     {{ range .Pages }}
       <li>
         {{ if isset .Params "cover" }}
-          {{ $cover := .Page.Resources.GetMatch (printf "*%s*" .Params.cover) }}
+          {{ $cover := .Resources.GetMatch (printf "*%s*" (.Params.cover | safeURL)) }}
+          {{ if and (eq $cover.ResourceType "image") (ne $cover.MediaType.SubType "svg") }}
+            {{ $cover = $cover.Resize "600x" }}
+          {{ end }}
           <a class="book-cover" href="{{ .RelPermalink }}">
-            <img src="{{ $cover.RelPermalink }}" loading="lazy" alt="" />
+            <img src="{{ $cover.RelPermalink }}" loading="lazy" alt="Book cover for {{ .Title | markdownify }}" />
           </a>
         {{ end }}
         <h3>
@@ -22,7 +25,7 @@
             {{- "" -}}by {{ "" -}}
             {{- range $i, $author := . -}}
               {{- if $i -}}, {{ end -}}
-              <a class="author" href="{{ $author.RelPermalink }}/">{{ $author.LinkTitle }}</a>
+              {{ $author.LinkTitle }}
             {{- end -}}
           </cite>
         {{ end }}
