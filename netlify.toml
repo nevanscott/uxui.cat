@@ -3,7 +3,7 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [build.environment]
-NPM_VERSION = "7.0.15"
+NODE_VERSION = "15.4.0"
 HUGO_VERSION = "0.78.2"
 
 [context.production.environment]
