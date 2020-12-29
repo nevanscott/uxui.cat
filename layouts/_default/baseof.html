@@ -49,5 +49,18 @@
       </p>
       <p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+    <script>
+      var pjax = new Pjax({
+        selectors: [
+          "title",
+          "meta",
+          "[role=banner]",
+          "nav.breadcrumb",
+          "[role=main]"
+        ],
+        cacheBust: false
+      });
+    </script>
   </body>
 </html>
