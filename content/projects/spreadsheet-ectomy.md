@@ -73,7 +73,15 @@ Because you are launching this product, you need to ensure that this is a servic
 
 ## Research
 
-You will need to find people *inside* organizations to talk to. You should focus on tech-forward organizations that are using spreadsheets internally for some part(s) of their workflow. This is why it is critical to start now so that you have time to plan and visit offices in the first week of the project. Research can be done remotely over video conference if you are connected to organizations elsewhere. You are welcome to investigate in any domain and explore areas that you're familiar with, where you may already have a professional network to start from.
+You will need to find people *inside* organizations to talk to. Find information about:
+
+- their work environment,
+- their needs,
+- their tasks and responsibilities,
+- the tools that they use for work,
+- and the use that they make of spreadsheets.
+
+You should focus on tech-forward organizations that are using spreadsheets internally for some part(s) of their workflow (whether they do it for inventory, data entry, planning, accounting, sign up, training, etc). This is why it is critical to start now so that you have time to plan and talk to users in the first week of the project. Research can be done remotely over video conference if you are connected to organizations elsewhere. You are welcome to investigate in any domain and explore areas that you’re familiar with, where you may already have a professional network to start from.
 
 *Warning: don’t design for yourself, or solve your own spreadsheet problem!*
 
@@ -88,6 +96,7 @@ Considerations as you investigate how organizations currently work with spreadsh
 ## Suggestions
 
 * Expand your research to at least 3 organizations to try to find as much variety of information and needs as you can.
+* Start broad and once you've found one main workflow that you'd like to focus on, narrow down the range of your interviews as you go.
 * Find multiple stakeholders, such as managers, employees (preferably low-level), outside contractors they work with, to get as many perspectives on this spreadsheet problem as possible.
 * Look to LinkedIn, Slack, or leverage your existing networks to find potential contacts and interviewees.
 * Run usability tests with real users—try scheduling these in advance.
