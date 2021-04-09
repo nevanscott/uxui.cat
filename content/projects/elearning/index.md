@@ -42,11 +42,11 @@ description: Design a new mobile e-learning app to be launched on both Android a
 
 We are planning to launch a new product for self-paced learning on the go. We  intend to generate revenue based on subscription fees associated with  **access to content**. We want to start by launching a *minimum viable product*, but considering this is a competitive market to enter, we probably cannot compete solely on price—instead we need you to help us add value to the experience so that users may start adopting our platform.
 
-You will be designing a new app to be launched on both Android and iOS. For the sake of this exercise, assume that both apps will be built out by developers specializing in the respective platforms, and that they will be built natively. It's your job to:
+You will be designing a new app to be launched on both Android and iOS. For the sake of this exercise, assume that both apps will be built using a tool like [React Native](https://reactnative.dev). It's your job to:
 
 * quickly prototype a key flow of the app
 * develop a visual identity to accompany it
-* translate the design to be appropriate for both platforms (iOS and Android)
+* develop the design to be appropriate for both platforms (iOS and Android), highlighting any important design differences between the two platforms
 
 
 ## Proto-personas
