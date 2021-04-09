@@ -44,7 +44,7 @@ We are planning to launch a new product for self-paced learning on the go. We  i
 
 You will be designing a new app to be launched on both Android and iOS. For the sake of this exercise, assume that both apps will be built using a tool like [React Native](https://reactnative.dev). It's your job to:
 
-* quickly prototype a key flow of the app
+* prototype a key flow of the app
 * develop a visual identity to accompany it
 * develop the design to be appropriate for both platforms (iOS and Android), highlighting any important design differences between the two platforms
 
