@@ -1,5 +1,5 @@
 ---
-title: Mobile e-learning app
+title: Mobile e-learning
 weight: 5
 description: Design a new mobile e-learning platform to be launched on both Android and iOS.
 ---
