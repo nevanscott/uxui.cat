@@ -73,7 +73,7 @@ h1 {
 }
 h2 {
   font-family: var(--font-headline);
-  font-weight: 325;
+  font-weight: 600;
   font-optical-sizing: auto;
   margin-top: 2.5em;
 }

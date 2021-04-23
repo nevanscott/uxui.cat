@@ -1,7 +1,12 @@
 .deets {
   --max: max-content;
+  flex-wrap: wrap;
   font-family: var(--font-caption);
   font-size: smaller;
+  background: var(--callout);
+  padding: 0 1.5em;
+  margin: 0 -0.5em;
+  border-radius: 0.5em;
 }
 
 .deets li small {
