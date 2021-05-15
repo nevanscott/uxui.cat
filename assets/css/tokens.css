@@ -1,15 +1,14 @@
 :root {
-  --font-sans: "Alegreya Sans", system-ui, sans-serif;
-  --font-serif: "PiazzollaVar", "Piazzolla", ui-serif, Georgia, serif;
+  --font-sans: system-ui, sans-serif;
 
-  --font-size: calc(0.25vw + 1.2em);
+  --font-size: calc(0.2vw + 1.2em);
 
   --line-height: 1.4;
   --line-height-headline: 1.2;
 
-  --font-text: var(--font-serif);
+  --font-text: var(--font-sans);
   --font-title: var(--font-sans);
-  --font-headline: var(--font-serif);
+  --font-headline: var(--font-sans);
   --font-subhead: var(--font-sans);
   --font-interface: var(--font-sans);
   --font-caption: var(--font-sans);

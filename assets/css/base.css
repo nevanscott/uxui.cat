@@ -56,7 +56,7 @@ aside {
 }
 small {
   color: var(--color-muted);
-  font-weight: 300;
+  font-weight: 400;
   font-family: var(--font-caption);
 }
 mark {
