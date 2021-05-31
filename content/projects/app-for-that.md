@@ -13,7 +13,7 @@ description: Design a single-function "utility" app based on open-ended generati
 
   ### Duration
 
-  2–3 days
+  3–4 days
 
   </div>
 
@@ -31,7 +31,7 @@ description: Design a single-function "utility" app based on open-ended generati
 
   ### Deliverables
 
-  * Digital paper prototype
+  * Low-fidelity prototype
   * Slide deck
   * Presentation
 
@@ -69,4 +69,4 @@ Make sure to share the presentation equally amongst your teammates! (And watch o
 
 ## Prototype
 
-For this prototype, you'll stick to sketches on paper, but also take photos of your sketches to create a clickable (tappable) prototype using your choice of digital prototyping tools.
+For this prototype, you'll stick to a very low-fidelity prototype with simple interactions built in Figma.
