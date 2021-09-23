@@ -4,7 +4,7 @@ command = "hugo --gc --minify"
 
 [build.environment]
 NODE_VERSION = "15.4.0"
-HUGO_VERSION = "0.78.2"
+HUGO_VERSION = "0.88.1"
 
 [context.production.environment]
 HUGO_ENV = "production"
