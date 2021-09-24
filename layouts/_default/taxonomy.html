@@ -15,6 +15,9 @@
           {{ with .Description -}}
             <p>{{ . | markdownify }}<p>
           {{- end }}
+          {{ with .Params.see -}}
+            <p>See <strong>{{ . | markdownify }}</strong>.<p>
+          {{- end }}
         </article>
       </li>
     {{ end }}
