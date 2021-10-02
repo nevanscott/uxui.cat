@@ -22,6 +22,14 @@
       {{ end }}
     </header>
     {{ partial "meta.html" . }}
+    {{ with .Params.objectives }}
+  		<h2>Learning Objectives</h2>
+  		<ul>
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+  		</ul>
+  	{{ end }}
     {{ .Content }}
     {{ if isset .Params "novice" -}}
       {{ partial "rubric/row.html" . }}
