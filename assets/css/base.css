@@ -32,7 +32,6 @@ a {
   text-underline-offset: 2px;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--link);
-  transition: text-decoration 300ms;
 }
 a:hover {
   text-decoration-color: var(--active);
@@ -42,11 +41,11 @@ h1 a, h2 a, h3 a {
   text-decoration-thickness: 3px;
 }
 a.external::after {
-    content: "↗";
-    color: var(--active);
-    font-size: smaller;
-    font-weight: 700;
-    margin-left: 0.25em;
+  content: "↗";
+  color: var(--active);
+  font-size: smaller;
+  font-weight: 700;
+  margin-left: 0.25em;
 }
 
 
