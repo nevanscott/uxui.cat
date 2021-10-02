@@ -13,8 +13,8 @@ taxonomies:
 
 related:
   threshold: 80
-  includeNewer: false
-  toLower: false
+  includeNewer: true
+  toLower: true
   indices:
     - name: topics
       weight: 100
