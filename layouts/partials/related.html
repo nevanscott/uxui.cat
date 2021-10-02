@@ -49,6 +49,19 @@
       {{ end }}
     {{ end }}
   {{ end }}
+  {{ if eq .Key "lessons" }}
+    <ul>
+        {{ range .Pages.GroupBy "Parent" }}
+          {{ range .Pages }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                {{ .Title | markdownify }}
+              </a>
+            </li>
+          {{ end }}
+        {{ end }}
+    </ul>
+  {{ end }}
   {{ if eq .Key "competencies" }}
     <ul>
         {{ range .Pages.GroupBy "Parent" }}

@@ -18,6 +18,8 @@ related:
   indices:
     - name: topics
       weight: 100
+    - name: title
+      weight: 80
     - name: authors
       weight: 80
     - name: sources
