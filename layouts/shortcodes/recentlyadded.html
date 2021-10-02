@@ -1,0 +1,14 @@
+<h2>Recently Added</h2>
+<ul>
+{{ range first 10 site.RegularPages.ByDate.Reverse }}
+  <li>
+    <h3>
+      <a href="{{.RelPermalink}}">{{ .Title | markdownify }}</a>
+      <small>{{ .Date.Format "January 2, 2006" }}</small>
+    </h3>
+    {{ with .Description -}}
+      <p>{{ . | markdownify }}<p>
+    {{- end }}
+  </li>
+{{ end }}
+</ul>
