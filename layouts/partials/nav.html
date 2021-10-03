@@ -1,6 +1,6 @@
 <nav class="main-nav">
   {{ $currentPage := . }}
   {{ range .Site.Menus.main }}
-    <a class="main-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.IsDescendant .Page) }} active{{end}}" href="{{ .URL }}" title="{{ .Title | markdownify }}">{{ .Name | markdownify }}</a>
+    <a class="main-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ( and ($currentPage.IsDescendant .Page) ($currentPage.IsHome)) }} active{{end}}" href="{{ .URL }}" title="{{ .Title | markdownify }}">{{ .Name | markdownify }}</a>
   {{ end }}
 </nav>

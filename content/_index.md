@@ -1,4 +1,7 @@
 ---
+title: Home
+weight: 1
+menu: main
 ---
 
 # Thanks for stopping by!
