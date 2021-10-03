@@ -22,11 +22,12 @@
       {{ end }}
     </header>
     {{ partial "meta.html" . }}
+    {{ partial "topics.html" . }}
     {{ with .Params.objectives }}
   		<h2>Learning Objectives</h2>
   		<ul>
         {{ range . }}
-          <li>{{ . }}</li>
+          <li>{{ . | markdownify }}</li>
         {{ end }}
   		</ul>
   	{{ end }}

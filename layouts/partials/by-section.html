@@ -10,7 +10,18 @@
   <ul>
       {{ range .Pages }}
       <li>
-        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        {{ if isset .Params "link" -}}
+          <h4>
+            <a class="external" href="{{ .Params.link }}">{{ .Title | markdownify }}</a>
+            <small><a class="permalink" href="{{ .RelPermalink }}" title="Permalink for {{ .Title | markdownify }}">∞</a></small>
+          </h4>
+        {{- else -}}
+          <h4><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h4>
+        {{- end }}
+        {{ with .Description }}
+          <p>{{ . | markdownify }}</p>
+        {{ end }}
+        {{ partial "meta.html" . }}
       </li>
       {{ end }}
   </ul>

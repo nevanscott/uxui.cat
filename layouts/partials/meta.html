@@ -17,11 +17,4 @@
     {{ $url := urls.Parse . }}
     <small class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</small>
   {{ end }}
-  {{ with .GetTerms "topics" }}
-    <ul class="tags">
-      {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-      {{ end }}
-    </ul>
-  {{ end }}
 </div>
