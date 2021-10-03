@@ -44,5 +44,5 @@ nav.primary a.active {
   border-bottom: solid 4px var(--link);
   border-top: solid 4px rgba(0,0,0,0);
   color: var(--color-contrast);
-  font-weight: 650;
+  font-weight: 600;
 }
