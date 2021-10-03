@@ -42,7 +42,7 @@ nav.main-nav a:hover {
 
 nav.primary a.active {
   border-bottom: solid 4px var(--link);
-  border-top: solid 4px rgba(0,0,0,0);
+  border-top: solid 4px var(--background);
   color: var(--color-contrast);
   font-weight: 600;
 }
