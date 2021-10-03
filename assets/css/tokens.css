@@ -1,5 +1,5 @@
 :root {
-  --font-sans: system-ui, sans-serif;
+  --font-sans: "Output Sans", system-ui, sans-serif;
   --font-serif: "Source Serif", ui-serif, Georgia, serif;
 
   --font-size: calc(0.2vw + 1.2em);

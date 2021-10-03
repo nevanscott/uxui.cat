@@ -1,0 +1,7 @@
+@font-face {
+  src: url('/fonts/output/OutputSans2Beta-Regular.woff2') format("woff2"),
+       url('/fonts/output/OutputSans2Beta-Regular.woff') format("woff");
+  font-family: 'Output Sans';
+  font-style: normal italic;
+  font-weight: 1 800;
+}

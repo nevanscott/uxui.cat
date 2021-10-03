@@ -66,14 +66,14 @@ mark {
 }
 h1, h2, h3, h4, h5, h6 {
   line-height: var(--line-height-headline);
+  font-optical-sizing: auto;
+  font-weight: 600;
 }
 h1 {
   font-family: var(--font-title);
 }
 h2 {
   font-family: var(--font-headline);
-  font-weight: 600;
-  font-optical-sizing: auto;
   margin-top: 2.5em;
 }
 h3 {
@@ -83,6 +83,10 @@ h3 {
 p, ul, ol, blockquote, h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
   max-width: 44rem;
+}
+header p {
+  font-size: 1.075em;
+  font-weight: 450;
 }
 
 ol {
