@@ -1,4 +1,5 @@
 [role=banner] {
+  border-top: solid 4px var(--link);
   font-family: var(--font-interface);
 }
 

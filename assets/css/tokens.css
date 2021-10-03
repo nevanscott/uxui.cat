@@ -18,6 +18,7 @@
   --background: white;
   --color: #3C4B4D;
   --color-muted: #6F7E80;
+  --color-contrast: black;
   --stroke: #DAE5E6;
   --fill: white;
   --link: #489DF1;
@@ -45,6 +46,7 @@
     --background: #1A1A1A;
     --color: #BBB;
     --color-muted: #999;
+    --color-contrast: white;
     --stroke: #333;
     --fill: #1A1A1A;
     --link: dodgerblue;

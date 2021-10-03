@@ -2,11 +2,11 @@ nav.primary {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-size: 1.125em;
   justify-content: space-between;
   align-items: stretch;
   border-bottom: solid 1px var(--stroke);
   padding: 0 0.75rem;
-  background-color: var(--callout);
 }
 @media screen and (min-width: 55ch) {
   nav.primary {
@@ -15,14 +15,14 @@ nav.primary {
 }
 
 nav.primary a {
-  padding: 0.75rem 0;
+  padding: 1.5rem 0;
 }
 
 nav.main-nav {
   display: flex;
   flex-wrap: wrap;
   font-size: 0.8em;
-  font-weight: 600;
+  font-weight: 450;
 }
 
 nav.main-nav :not(:last-child) {
@@ -37,11 +37,12 @@ nav.main-nav a {
 }
 
 nav.main-nav a:hover {
-  background: var(--stroke);
+  color: var(--color-contrast);
 }
 
 nav.primary a.active {
-  border-bottom: solid 3px var(--active);
-  margin-bottom: -2px;
-  border-top: solid 1px rgba(0,0,0,0);
+  border-bottom: solid 4px var(--link);
+  border-top: solid 4px rgba(0,0,0,0);
+  color: var(--color-contrast);
+  font-weight: 650;
 }
