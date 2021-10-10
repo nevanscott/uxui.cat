@@ -1,6 +1,7 @@
 ---
 title: Adaptive Interfaces
 unit: 3
+description: Make your designs flexible to adapt to different user needs and abilities.
 topics:
   - Progressive Disclosure
   - Staged Disclosure
