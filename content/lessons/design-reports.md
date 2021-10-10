@@ -6,10 +6,7 @@ topics:
   - Writing
   - Portfolio
   - Design Reports
-description: >
-  Writing about your design work is a good practice in general, to document your
-  process and results. For us, these will serve double duty as early drafts of
-  our eventual portfolios.
+description: Writing about your design work is a good practice in general, to document your process and results. For us, these will serve double duty as early drafts of our eventual portfolios.
 objectives:
   - identify elements of a successful design report
 resources:
