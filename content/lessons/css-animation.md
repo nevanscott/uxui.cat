@@ -1,6 +1,7 @@
 ---
 title: CSS Animations
 unit: 4
+description: Use CSS to apply interactive animations to an interface.
 topics:
   - CSS Animation
   - CSS
