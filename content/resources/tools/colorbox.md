@@ -1,9 +1,8 @@
 ---
 title: ColorBox
-link: 'http://www.colorbox.io'
+link: https://colorbox.io
 topics:
   - Color
   - Design Systems
-sources: Lyft Design
+authors: Kevyn Arnott
 ---
-
