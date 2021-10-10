@@ -5,5 +5,5 @@ topics:
   - Progressive Disclosure
 authors:
   - Jakob Nielsen
+sources: Nielsen Norman Group
 ---
-

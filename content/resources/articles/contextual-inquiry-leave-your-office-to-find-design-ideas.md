@@ -4,5 +4,5 @@ link: 'https://www.youtube.com/watch?v=nC47ktX4U2I'
 topics:
   - User Research
   - Observation
+sources: Nielsen Norman Group
 ---
-

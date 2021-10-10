@@ -4,4 +4,5 @@ subtitle: a tool for assessing and developing UX Practitioners
 authors:
   - David Travis
 link: https://www.userfocus.co.uk/articles/8-competencies-of-user-experience.html
+sources: User Focus
 ---

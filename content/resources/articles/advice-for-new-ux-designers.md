@@ -4,5 +4,8 @@ link: >-
   https://cattsmall.com/advice/design/2014/05/12/advice-for-new-ux-designers.html
 authors:
   - Catt Small
+topics:
+  - Career
+  - Job Search
+  - Portfolio
 ---
-
