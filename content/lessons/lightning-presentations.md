@@ -3,7 +3,7 @@ title: Lightning Presentations
 unit: 5
 day: 37
 topics: []
-description: ''
+description: Give a brief presentation on a topic to share new learning with your peers.
 ---
 ***10 slides and 5 minutes per student!***
 
