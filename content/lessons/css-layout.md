@@ -7,6 +7,7 @@ topics:
   - CSS Grid
   - Responsive
   - Composition
+description: Use CSS grid and flexbox to create flexible and responsive interface layous.
 ---
 
 Agenda
