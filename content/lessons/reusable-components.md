@@ -1,19 +1,15 @@
 ---
-title: >-
-  How to create reusable components in Sketch to make your workflow more
-  efficient
+title: Reusable Components
 unit: 2
 day: 10
 topics:
   - User Interface
   - Sketch
-description: >-
-  Mastering this features will help you make your work more efficient and your
-  design more consistent.
+  - Figma
+description: Make flexible and reusable components to speed up your design process, and make it easier to translate your designs into a component-based design system.
 objectives:
-  - use nested symbols in Sketch to make reusable UI components
-  - use styles in sketch to make your design consistent and up to date
-resources: []
+  - Use nested components in Figma to make reusable UI elements
+  - Use color and type styles in Figma to make your design consistent
 prep:
   - author: Drew Vosburg
     format: Article
@@ -28,4 +24,3 @@ prep:
     link: 'https://www.youtube.com/watch?v=Bxr_Kb09ito'
     title: Organizing Layer Styles
 ---
-
