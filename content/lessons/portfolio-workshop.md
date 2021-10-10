@@ -1,5 +1,6 @@
 ---
 title: Portfolio Workshop
+description: Where do I begin?
 unit: 5
 day:
 ---
