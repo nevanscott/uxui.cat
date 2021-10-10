@@ -2,6 +2,7 @@
 title: Content Strategy
 unit: 3
 day: 22
+description: Assess, organize, and plan for content needs.
 topics:
   - Information Architecture
   - Content
