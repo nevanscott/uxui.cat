@@ -2,51 +2,26 @@
 title: Add a Feature
 weight: 4
 description: Add a new feature to an existing product, as seamlessly as possible.
+meta:
+  - name: Team Size
+    value: 2–3 people
+  - name: Duration
+    value: 5–6 days
+  - name: Materials
+    value: |
+      * Index cards
+      * Pens
+      * Digital design tool
+      * Interface animation prototyping tool
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * High-fidelity mockups
+      * Click-through prototype of a "happy path"
+      * Presentation
+  - name: Target Device
+    value: Mobile App (Either iOS or Android)
 ---
-
-<div class="wide deets row">
-  <div>
-
-  ### Team Size
-
-  2–3 people
-
-  ### Duration
-
-  5–6 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Index cards
-  * Pens
-  * Digital design tool
-  * Interface animation prototyping tool
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * High-fidelity mockups
-  * Click-through prototype of a "happy path"
-  * Presentation
-
-  </div>
-
-  <div>
-
-  ### Target Device
-
-  Mobile App (Either iOS or Android)
-
-  </div>
-</div>
 
 ## Brief
 

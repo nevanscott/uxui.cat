@@ -2,41 +2,21 @@
 title: Travel booking app
 weight: 5
 description: Design a new travel booking app to be launched on both Android and iOS.
+meta:
+  - name: Team Size
+    value: Individual
+  - name: Duration
+    value: 4–5 days
+  - name: Materials
+    value: |
+      * Digital design tool
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * Click-through prototype
+      * Presentation
+      * Design report
 ---
-
-<div class="deets row">
-  <div>
-
-  ### Team Size
-
-  Individual
-
-  ### Duration
-
-  4–5 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Digital design tool
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Click-through prototype
-  * Presentation
-  * Design report
-
-  </div>
-</div>
-
 
 ## Brief
 

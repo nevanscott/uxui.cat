@@ -2,41 +2,22 @@
 title: There's an app for that!
 weight: 2
 description: Design a single-function "utility" app based on open-ended generative research.
+meta:
+  - name: Team Size
+    value: 2–3 people
+  - name: Duration
+    value: 3–4 days
+  - name: Materials
+    value: |
+      * Index cards
+      * Pens
+      * Presentation app
+  - name: Deliverables
+    value: |
+      * Low-fidelity prototype
+      * Slide deck
+      * Presentation
 ---
-
-<div class="deets row">
-  <div>
-
-  ### Team Size
-
-  2–3 people
-
-  ### Duration
-
-  3–4 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Index cards
-  * Pens
-  * Presentation app
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Low-fidelity prototype
-  * Slide deck
-  * Presentation
-
-  </div>
-</div>
 
 ## Brief
 

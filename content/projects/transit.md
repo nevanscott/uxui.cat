@@ -2,41 +2,22 @@
 title: Transit Kiosk
 weight: 1
 description: Visit nearby transit stations to observe how users purchase tickets in context, then take your findings to make suggestions for how to improve the interface of the ticket machines.
+meta:
+  - name: Team Size
+    value: 3–4 people
+  - name: Duration
+    value: 1–2 days
+  - name: Materials
+    value: |
+      * Pen and paper
+      * Notebook
+      * Walls
+      * Stickies
+  - name: Deliverables
+    value: |
+      * Paper prototype
+      * Presentation
 ---
-
-<div class="deets row">
-  <div>
-
-  ### Team Size
-
-  3–4 people
-
-  ### Duration
-
-  1–2 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Pen and paper
-  * Notebook
-  * Walls
-  * Stickies
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Paper prototype
-  * Presentation
-
-  </div>
-</div>
 
 
 ## Brief

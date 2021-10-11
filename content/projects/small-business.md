@@ -2,42 +2,22 @@
 title: Small Business Website
 weight: 6
 description: Design a responsive website for a small business of your choosing.
+meta:
+  - name: Team Size
+    value: 2–3 people
+  - name: Duration
+    value: 4–5 days
+  - name: Materials
+    value: |
+      * Digital design tool
+      * Code editor
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * Click-through prototype
+      * HTML & CSS prototype
+      * Presentation
 ---
-
-<div class="deets row">
-  <div>
-
-  ### Team Size
-
-  2–3 people
-
-  ### Duration
-
-  4–5 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Digital design tool
-  * Code editor
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Click-through prototype
-  * HTML & CSS prototype
-  * Presentation
-
-  </div>
-</div>
-
 
 ## Brief
 

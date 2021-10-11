@@ -17,4 +17,12 @@
     {{ $url := urls.Parse . }}
     <small class="source-url">{{ strings.TrimPrefix "www." $url.Host }}</small>
   {{ end }}
+  {{ with .Params.meta }}
+    <dl class="details">
+      {{ range . }}
+        <dt>{{ .name }}</dt>
+        <dd>{{ .value | markdownify }}</dd>
+      {{ end }}
+    </dl>
+  {{ end }}
 </div>

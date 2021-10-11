@@ -24,6 +24,10 @@ main > .full-bleed {
   main {
     padding: 5vw;
   }
+  main > .full-bleed {
+    margin: -5vw -5vw 0 -5vw;
+    padding: 5vw;
+  }
 }
 @media screen and (min-width: 70ch) {
   main {
@@ -37,8 +41,6 @@ main > .full-bleed {
   }
   main > .full-bleed {
     grid-column: 1 / span 2;
-    margin: -5vw -5vw 0 -5vw;
-    padding: 5vw;
   }
   main > .wide {
     grid-column: 1 / span 2;

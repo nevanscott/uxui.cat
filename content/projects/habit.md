@@ -2,44 +2,25 @@
 title: Habit Tracking App
 weight: 3
 description: Propose a new mobile app designed to support building (or breaking) a habit. Based on user research, you'll identify an opportunity for an app to improve people's day-to-day lives.
+meta:
+  - name: Team Size
+    value: Individual
+  - name: Duration
+    value: 4–5 days
+  - name: Materials
+    value: |
+      * Index cards
+      * Pens
+      * Digital design tool
+      * Word processor
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * Click-through prototype
+      * Slide deck
+      * Presentation
+      * Design report
 ---
-
-<div class="deets row">
-  <div>
-
-  ### Team Size
-
-  Individual
-
-  ### Duration
-
-  4–5 days
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Index cards
-  * Pens
-  * Digital design tool
-  * Word processor
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Click-through prototype
-  * Slide deck
-  * Presentation
-  * Design report
-
-  </div>
-</div>
 
 ## Brief
 
