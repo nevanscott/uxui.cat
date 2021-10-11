@@ -43,6 +43,7 @@ h1 a, h2 a, h3 a {
 a.external::after {
   content: "↗";
   color: var(--active);
+  font-family: var(--font-interface);
   font-size: smaller;
   font-weight: 700;
   margin-left: 0.25em;

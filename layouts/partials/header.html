@@ -1,0 +1,6 @@
+<header class="hero full-bleed">
+  <h1>{{ .Title }}</h1>
+  {{ with .Description -}}
+    <p>{{ . | markdownify }}<p>
+  {{- end }}
+</header>

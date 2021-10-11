@@ -32,6 +32,8 @@ main {
   }
   main > .full-bleed {
     grid-column: 1 / span 2;
+    margin: -5vw -5vw 0 -5vw;
+    padding: 5vw;
   }
   main > .wide {
     grid-column: 1 / span 2;

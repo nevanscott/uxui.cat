@@ -1,10 +1,7 @@
 {{ define "main" }}
   <main role="main">
+    {{ partial "header.html" . }}
     <div class="wide">
-      <h1>{{ .Title }}</h1>
-      {{ with .Description -}}
-        <p>{{ . | markdownify }}<p>
-      {{- end }}
       {{ .Content }}
       <div class="stack separated">
       {{ range .Pages }}
