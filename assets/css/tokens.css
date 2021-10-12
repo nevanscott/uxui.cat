@@ -43,22 +43,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #1A1A1A;
-    --color: #BBB;
-    --color-muted: #999;
-    --color-contrast: white;
-    --stroke: #333;
-    --fill: #1A1A1A;
+    --hue: 220;
+
+    --background: hsl(var(--hue), 12%, 10%);
+    --color: hsl(var(--hue), 4%, 73%);
+    --color-muted: hsl(var(--hue), 5%, 60%);
+    --color-contrast: hsl(var(--hue), 4%, 100%);
+    --stroke: hsl(var(--hue), 8%, 20%);
+    --fill: hsl(var(--hue), 12%, 10%);
     --link: dodgerblue;
     --active: aliceblue;
-    --highlight: #0F0F0F;
-    --highlight-alt: #090909;
+    --highlight: hsl(var(--hue), 18%, 6%);
+    --highlight-alt: hsl(var(--hue), 20%, 4%);
     --highlight-text: gold;
-    --callout: #0F0F0F;
-    --callout-alt: #090909;
+    --callout: hsl(var(--hue), 18%, 6%);
+    --callout-alt: hsl(var(--hue), 20%, 4%);
 
-    --logo-fill: #000;
-    --logo-stroke: #BBB;
+    --logo-fill: hsl(var(--hue), 18%, 6%);
+    --logo-stroke: hsl(var(--hue), 4%, 73%);
     --logo-stroke-width: 1.5;
   }
 }
