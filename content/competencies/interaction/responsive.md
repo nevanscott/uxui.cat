@@ -10,7 +10,7 @@ topics:
   - Composition
   - Hierarchy
   - Responsive
-  - Media query
+  - Media Query
   - CSS
-  - Flexible layout
+  - Flexible Layout
 ---

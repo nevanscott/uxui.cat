@@ -8,5 +8,5 @@ expert: Master sketcher! (but not overly indulgent)
 topics:
   - Prototype
   - Sketching
-  - Paper prototype
+  - Paper Prototype
 ---

@@ -10,5 +10,5 @@ topics:
   - Interaction
   - Hotspot
   - User flow
-  - Happy path
+  - Happy Path
 ---

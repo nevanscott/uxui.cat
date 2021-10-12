@@ -10,5 +10,5 @@ topics:
   - Frontend
   - HTML
   - CSS
-  - Design implementation
+  - Design Implementation
 ---
