@@ -1,12 +1,9 @@
 {{ define "main" }}
   <main role="main">
-    <h1 class="full-bleed">{{ .Title }}</h1>
-    {{ with .Description -}}
-      <p>{{ . | markdownify }}<p>
-    {{- end }}
+    {{ partial "header.html" . }}
     {{ .Content }}
-    <ul class="books full-bleed">
-    {{ range .Pages }}
+    <ul class="books full-bleed" style="margin-top: 1em;">
+    {{ range .Pages.ByTitle }}
       <li>
         {{ if isset .Params "cover" }}
           {{ $cover := .Resources.GetMatch (printf "*%s*" (.Params.cover | safeURL)) }}
