@@ -5,7 +5,6 @@ topics:
   - Agile
   - Design Process
 authors:
-  - Jakon Nielsen
+  - Jakob Nielsen
 sources: Nielsen Norman Group
 ---
-
