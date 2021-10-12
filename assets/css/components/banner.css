@@ -1,6 +1,8 @@
 [role=banner] {
-  border-top: solid 4px var(--active);
+  background-color: var(--background);
   font-family: var(--font-interface);
+  position: sticky;
+  top: 0;
 }
 
 [role=banner] h1 {

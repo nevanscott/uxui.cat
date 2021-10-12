@@ -7,6 +7,7 @@
 
 .logo svg {
   height: 32px;
+  transform: translateY(1px);
 }
 
 .logo a {
@@ -16,4 +17,5 @@
 
 .logo a > * + * {
   margin-left: 16px;
+  padding-top: 2px;
 }
