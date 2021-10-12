@@ -2,8 +2,8 @@
   <main role="main">
     {{ partial "header.html" . }}
     {{ .Content }}
-    <ul>
-    {{ range .Pages }}
+    <ul class="full-bleed compact row wide-content">
+    {{ range .Pages.ByTitle }}
       <li>
         {{ if isset .Params "link" -}}
           <h3>
