@@ -4,7 +4,7 @@ link: 'https://www.nngroup.com/articles/ux-user-stories/'
 topics:
   - Agile
 authors:
-  - Page Laubheimer and Hoa Loranger
+  - Page Laubheimer
+  - Hoa Loranger
 sources: Nielsen Norman Group
 ---
-
