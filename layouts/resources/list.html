@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <main role="main">
+    {{ partial "header.html" . }}
+    {{ .Content }}
+    <ul>
+    {{ range .Pages }}
+      <li>
+        {{ if isset .Params "link" -}}
+          <h3>
+            <a class="external" href="{{ .Params.link }}">{{ .Title | markdownify }}</a>
+            <small><a class="permalink" href="{{ .RelPermalink }}" title="Permalink for {{ .Title | markdownify }}">∞</a></small>
+          </h3>
+        {{- else -}}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></h3>
+        {{- end }}
+        {{ with .Description }}
+          <p>{{ . | markdownify }}</p>
+        {{ end }}
+        {{ partial "meta.html" . }}
+      </li>
+    {{ end }}
+    </ul>
+  </main>
+{{ end }}
