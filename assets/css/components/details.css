@@ -1,8 +1,11 @@
 dl.details {
+  border-top: solid 2px var(--stroke);
+  color: var(--color-muted);
   display: grid;
   font-size: smaller;
-  gap: 0.5em 1em;
+  gap: 0.5em 2em;
   grid-template-columns: auto 1fr;
+  padding-top: 1em;
 }
 
 dl.details dt {
@@ -14,6 +17,9 @@ dl.details dd {
 }
 
 dl.details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
   list-style: none;
   margin: 0;
   padding: 0;

@@ -1,8 +1,12 @@
+:root {
+  font-size: var(--font-size);
+}
+
 body {
   background-color: var(--background);
   color: var(--color);
   font-family: var(--font-text);
-  font-size: var(--font-size);
+  font-size: 1rem;
   margin: 0;
   padding: 0;
   line-height: var(--line-height);
