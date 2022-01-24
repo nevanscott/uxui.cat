@@ -4,9 +4,9 @@ weight: 4
 description: Add a new feature to an existing product, as seamlessly as possible.
 meta:
   - name: Team Size
-    value: 2–3 people
+    value: Individual
   - name: Duration
-    value: 5–6 days
+    value: 5 days
   - name: Materials
     value: |
       * Index cards
@@ -19,6 +19,7 @@ meta:
       * High-fidelity mockups
       * Click-through prototype of a "happy path"
       * Presentation
+      * Design report
   - name: Target Device
     value: Mobile App (Either iOS or Android)
 ---
@@ -46,21 +47,20 @@ As a new designer joining a team, you’ll often have to rapidly familiarize you
 
 ## Aspects to Consider
 
-* Who are the users and what are their goals? How can you quickly learn about them? How does the assigned scenario fit into their life?
+* Who are the users and what are their goals? How can you quickly learn about them? How would they make use of this new feature?
 * What’s your hypothesis about how the new functionality will change their behaviors?
 * How should the new functionality tie into the navigation of the product? Expect to try more than one approach here.
-* You must be able to defend your design decisions based on research and testing.
-* The company already has an established aesthetic and defined look and feel. How will you maintain this in your high-fidelity prototype?
+* You must be able to defend your design decisions based on testing.
+* The product already has an established aesthetic and defined look and feel. How will you maintain this in your high-fidelity prototype?
 
 
 ## Requirements
 
 * User flows for the key new tasks the user needs complete
 * Show how the feature fits into the app navigation
-* Evaluate your design against heuristics and CRAP principles
 * Digitized screens at high fidelity
 * Create at least one key animation for your interface <small>(you're very welcome to do more!)</small>
-* Provide evidence for key decisions through research and testing
+* Provide rationale for key decisions, especially through testing
 
 
 ## Presentation
@@ -68,13 +68,13 @@ As a new designer joining a team, you’ll often have to rapidly familiarize you
 We should get a strong sense of:
 
 * The problem and the user(s)
-* Findings from research and how these informed your design
+* Findings from discovery and testing, and how these informed your design
 * Your design, including a prototype
 * At least one key animation
 * Next steps
 
-## Suggested Schedule
 
+## Suggested Schedule
 
 <div class="schedule row full-bleed">
   <div>
@@ -82,56 +82,58 @@ We should get a strong sense of:
   ### Day 1
 
   * Make a project plan
-  * Define user research methods (surveys, interviews...) and execute
-  * Benchmarking
+  * Design inventory
+  * Brand attributes
+  * Benchmark features and flows
+  * Outline use cases
   </div>
   <div>
 
   ### Day 2
 
-  * Continue research and benchmarking
-  * Heuristics & CRAP
-  * Define problem and user
-  * Define new user flow with added feature
+  * Sketch user flows
+  * Explore design options
+  * Paper prototype
+  * Quick usability tests
   </div>
   <div>
 
   ### Day 3
 
-  * Paper prototype
   * Test & iterate
+  * Mockup key flow
+  * Crits
   </div>
   <div>
 
   ### Day 4
 
-  * Mid-fidelity prototype
   * Test & iterate
+  * High-fidelity mockups
+  * Interactive prototype
+  * Finalize your design
+  * Prepare presentation and rehearse
   </div>
   <div>
 
   ### Day 5
 
-  * Test & iterate
-  * High-fidelity mockups
-  * Principle animations
-  * Interactive prototype
-  * Test & iterate
-  </div>
-  <div>
-
-  ### Day 6
-
-  * Finalize your design
-  * Prepare presentation and rehearse
   * Present your work
   </div>
 </div>
 
 
+## Design report
+
+For this project, you'll be delivering a presentation as well as submitting a written report. The report is an opportunity for you to document your process, findings, takeaways, and iterations. It's good practice to document as much as you can *while you work*, so we're starting that practice early to make it a habit. This will make your life much easier later when you start compiling a portfolio of your work.
+
+We'll have time dedicated after the presentations of this project to write up the report.
+
+
 ## Design Thinking
 
 Remember that design challenges are tackled by alternating *divergent* and *convergent* thinking modes. You are expected to conduct exploratory research and narrow down the scope of the problem within the realm of the proposed feature. Then generate multiple possible solutions. Evaluate. Test. Repeat. You’ll have the opportunity to show these iterations in your presentation.
+
 
 ## Tips
 
