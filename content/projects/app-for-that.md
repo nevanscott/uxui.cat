@@ -14,7 +14,8 @@ meta:
       * Presentation app
   - name: Deliverables
     value: |
-      * Low-fidelity prototype
+      * High-fidelity prototype
+      * Style guide
       * Slide deck
       * Presentation
 ---
@@ -40,14 +41,21 @@ Your team will be designing a single-function "utility" app. Choose from one of 
 
 Your presentation should answer the following questions:
 
-1. What did your research show you?
-2. What variations on your design did you explore?
-3. How were your design decisions connected to your research findings?
-4. How would a user operate your final design?
-5. What would you do differently next time?
+1. What were your research goals and what did you discover?
+2. Who is this app designed for and what need does it serve for them?
+3. How would a user operate your product?
+4. How were your design decisions connected to your research findings?
+5. What variations on your design did you explore?
+6. How did findings from testing inform your design iterations?
+7. What patterns and components are in use in your final design?
+8. What would you do differently next time?
 
 Make sure to share the presentation equally amongst your teammates! (And watch out for smooth handoffs between speakers.)
 
 ## Prototype
 
-For this prototype, you'll stick to a very low-fidelity prototype with simple interactions built in Figma.
+For this prototype, you'll be delivering a high-fidelity prototype with detailed interactions built in Figma.
+
+## Style guide
+
+You'll be developing a new visual design to complement your app, and it's expected that you'll deliver a style guide to illustrate how the design system works.
