@@ -11,6 +11,7 @@ meta:
     value: |
       * Index cards
       * Pens
+      * Digital design tool
       * Presentation app
   - name: Deliverables
     value: |
