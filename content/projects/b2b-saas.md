@@ -47,7 +47,7 @@ description: Find an opportunity to improve a workflow with a tailored product t
 
 ## Brief
 
-You are part of a startup team on a mission: build a product to help professional teams get their work done more effectively. You are seeking to research, design, and launch a product for organizations to use internally, so they never can focus on what's important, rather than fighting with their tools.
+You are part of a startup team on a mission: build a product to help professional teams get their work done more effectively. You are seeking to research, design, and launch a product for organizations to use internally, so they can better focus on what's important, rather than fighting with their tools.
 
 The plan is that your product will be built as a desktop web app. Your product will use a software-as-a-service (SaaS) revenue model, meaning, you will charge a monthly per-user subscription fee. (Exact pricing is TBD and considered out of scope, though you are welcome to include competitor pricing in your research.)
 
