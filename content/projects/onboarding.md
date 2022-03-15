@@ -70,7 +70,7 @@ Considerations as you investigate how companies currently accomplish onboarding:
 
 ## Suggested schedule
 
-<div class="schedule row wide">
+<div class="schedule row full-bleed">
   <div>
 
   ### Day 1
