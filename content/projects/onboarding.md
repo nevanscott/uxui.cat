@@ -2,44 +2,23 @@
 title: Onboarding Web App
 weight: 7
 description: Design a desktop web app for companies to use internally for their onboarding process.
+meta:
+  - name: Team Size
+    value: Individual
+  - name: Duration
+    value: 2 weeks
+  - name: Materials
+    value: |
+      * Digital design tool
+      * Prototyping tool
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * High-fidelity prototype
+      * Post-launch roadmap
+      * Presentation
+      * Design report
 ---
-
-<div class="deets row wide">
-  <div>
-
-  ### Team Size
-
-  Individual
-
-  ### Duration
-
-  2 weeks
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Digital design tool
-  * Prototyping tool
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Prototype of the MVP for a desktop <small>(high-fidelity)</small>
-  * Roadmap for next 3-6 months <small>(additional features beyond the MVP that will be rolled out in the future)</small>
-  * Landing page that explains what your product is <small>(responsive)</small>
-  * Presentation of research and final proposal
-  * Research and design report as a PDF
-
-  </div>
-</div>
-
 
 ## Brief
 
@@ -58,6 +37,15 @@ A good example of a SaaS is [Gusto](https://gusto.com/)
 You will be designing a **new** product. If a company you research is already using a product, then that product is a competitor, and you should design something superior. *Don’t try to change the existing product.*
 
 Because you are launching this product, you need to ensure that this is a service that would be useful to *multiple companies*.
+
+
+## Deliverables
+
+* Prototype of the MVP for desktop <small>(high-fidelity)</small>
+* Roadmap for next 2 post-launch phases <small>(additional features beyond the MVP that will be rolled out in the future, along with how you plan to validate your product)</small>
+* Presentation of research and final design proposal
+* Research and design report as a PDF <small>(landscape or portrait, ~20 pages)</small>
+* Optional, but encouraged: Landing page mockup that explains what your product is and its value <small>(desktop layout; responsive as a bonus)</small>
 
 
 ## Research

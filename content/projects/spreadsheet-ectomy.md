@@ -2,44 +2,23 @@
 title: Spreadsheet-ectomy
 weight: 7
 description: Find an opportunity to replace a spreadsheet workflow with a tailored product to be launched as a desktop web app.
+meta:
+  - name: Team Size
+    value: Individual
+  - name: Duration
+    value: 2 weeks
+  - name: Materials
+    value: |
+      * Digital design tool
+      * Prototyping tool
+      * Presentation software
+  - name: Deliverables
+    value: |
+      * High-fidelity prototype
+      * Post-launch roadmap
+      * Presentation
+      * Design report
 ---
-
-<div class="deets row wide">
-  <div>
-
-  ### Team Size
-
-  Individual
-
-  ### Duration
-
-  2 weeks
-
-  </div>
-
-  <div>
-
-  ### Materials
-
-  * Digital design tool
-  * Prototyping tool
-  * Presentation software
-
-  </div>
-
-  <div>
-
-  ### Deliverables
-
-  * Prototype of the MVP for desktop <small>(high-fidelity)</small>
-  * Roadmap for next 2 post-launch phases <small>(additional features beyond the MVP that will be rolled out in the future, along with how you plan to validate your product)</small>
-  * Presentation of research and final design proposal
-  * Research and design report as a PDF <small>(landscape or portrait, at least 20 pages)</small>
-  * Optional, but encouraged: Landing page mockup that explains what your product is and its value <small>(desktop layout; responsive as a bonus)</small>
-
-  </div>
-</div>
-
 
 ## Brief
 
@@ -70,6 +49,16 @@ Examples of SaaS products for reference:
 You will be designing a **new** product. If an organization you research has tried a product to solve their problem in the past, or is considering some, good news! You just found some competitors, and your task is to design something superior. *Don’t try to change or extend an existing product.*
 
 Because you are launching this product, you need to ensure that this is a service that would be useful to *multiple organizations*.
+
+
+## Deliverables
+
+* Prototype of the MVP for desktop <small>(high-fidelity)</small>
+* Roadmap for next 2 post-launch phases <small>(additional features beyond the MVP that will be rolled out in the future, along with how you plan to validate your product)</small>
+* Presentation of research and final design proposal
+* Research and design report as a PDF <small>(landscape or portrait, ~20 pages)</small>
+* Optional, but encouraged: Landing page mockup that explains what your product is and its value <small>(desktop layout; responsive as a bonus)</small>
+
 
 ## Research
 
