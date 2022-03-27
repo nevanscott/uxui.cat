@@ -2,6 +2,7 @@
 title: The Figma Interface
 description: Start using Figma with the basics.
 video: figma-interface
+weight: 1
 ---
 
 When you create a new document in Figma, you’ll get a blank canvas and an untitled file. In order to change the file name, click on it, type the new name, and press return or enter. I’ll call this file Figma Interface.

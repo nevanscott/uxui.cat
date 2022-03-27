@@ -2,6 +2,7 @@
 title: Text and Shape Layers
 description: Use text and a rectangle to make a button element.
 video: text-and-shape-layers
+weight: 2
 ---
 
 Graphical user interfaces are composed primarily of text and rectangles. Let’s make a foundational UI element: a button.
