@@ -22,6 +22,9 @@
       {{ end }}
       {{ partial "meta.html" . }}
       {{ partial "topics.html" . }}
+      {{ if isset .Params "video" }}
+        {{ partial "video.html" . }}
+      {{ end }}
     </header>
     {{ with .Params.objectives }}
   		<h2>Learning Objectives</h2>
