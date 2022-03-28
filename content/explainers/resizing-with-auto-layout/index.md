@@ -1,7 +1,7 @@
 ---
 title: Resizing with Auto Layout
 description: Set the size of a button based on its contents.
-video: resizing-with-auto layout
+video: resizing-with-auto-layout
 weight: 4
 ---
 
