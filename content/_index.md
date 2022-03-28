@@ -14,4 +14,4 @@ Nevan here. 👋 I'm a design teacher based in Barcelona, Spain, and this is my 
 
 I teach a 9-week bootcamp on user experience and user interface design at <a href="http://www.ironhack.com/en/courses/ux-ui-design-bootcamp-learn-ux-design">Ironhack in Barcelona</a>.
 
-It’s a <a href="{{< ref "projects" >}}">project-based</a> class, with the goal of preparing students to start their careers as junior-level UX designers. It’s a big commitment, but if you’re ready for that, I would love to have you in class.
+It’s a <a href="{{< ref "projects" >}}">project-based</a> class, with the goal of preparing students to start their careers as junior-level product designers. It’s a big commitment, but if you’re ready for that, I would love to have you in class.
