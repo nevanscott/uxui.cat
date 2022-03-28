@@ -3,6 +3,10 @@ title: Frames for UI Elements
 description: Use a frame to create a button element.
 video: frames-for-ui-elements
 weight: 3
+topics:
+  - Figma
+  - Interface Controls
+  - User Interface
 ---
 
 Most user interface elements are composed of text and rectangles. However, the rectangle tool in Figma is usually not the best choice for drawing the background shape of a UI element. Instead, it is usually better to use something which in Figma is called a frame.

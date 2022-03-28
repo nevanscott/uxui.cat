@@ -3,6 +3,11 @@ title: Duplicate and Iterate
 description: Duplicate elements to tweak them and compare options.
 video: duplicate-and-iterate
 weight: 5
+topics:
+  - Figma
+  - User Interface
+  - Color
+  - Iteration
 ---
 
 As part of any design process, you’ll generate many possible approaches and compare them to iteratively work toward a better end result. UI designers typically explore design ideas by creating duplicates of elements and screens, making tweaks, and comparing options visually side by side.

@@ -3,6 +3,12 @@ title: Resizing with Auto Layout
 description: Set the size of a button based on its contents.
 video: resizing-with-auto-layout
 weight: 4
+topics:
+  - Figma
+  - Interface Controls
+  - User Interface
+  - Responsive
+  - Design Systems
 ---
 
 User interfaces generally need to be designed for flexibility, so they can be rendered correctly and usably on different size devices, in different sized windows, and with a variety of content. One of the tools Figma offers to help design flexible user interface elements is called auto layout.

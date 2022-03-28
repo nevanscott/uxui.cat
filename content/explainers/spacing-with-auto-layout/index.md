@@ -3,6 +3,11 @@ title: Spacing with Auto Layout
 description: Control the spacing between UI elements.
 video: spacing-with-auto-layout
 weight: 6
+topics:
+  - Figma
+  - Interface Layout
+  - Flexbox
+  - Flexible Layout
 ---
 
 Auto layout can be used to control two kinds of spacing. Inside of a UI element like a button, we can use auto layout to control the spacing between the edges of the frame and the edges of the text label. I have such a button here. The layer list shows an icon indicating that the frame for this button has auto layout enabled. Selecting the frame from the layer list, or on the canvas, will reveal the auto layout settings for this frame in the design panel.
