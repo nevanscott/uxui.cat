@@ -20,7 +20,7 @@
     {{ $style := resources.Get "main.css" | postCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-    <script defer data-domain="uxui.cat" src="https://plausible.io/js/plausible.js"></script>
+    <script defer data-domain="uxui.cat" data-api="/p/api/event" src="/p/js/script.js"></script>
   </head>
   <body>
     <header role="banner">
