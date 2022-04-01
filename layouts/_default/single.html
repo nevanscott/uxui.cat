@@ -38,6 +38,13 @@
     {{ if isset .Params "novice" -}}
       {{ partial "rubric/row.html" . }}
     {{- end }}
+    {{ if isset .Params "video" }}
+      {{ with .PrevInSection }}
+        <p>
+          <a href="{{ .Permalink }}"><strong>Up Next:</strong> {{ .Title }}</a>
+        </p>
+      {{ end }}
+    {{ end }}
     <footer>
       <p><small>Last updated {{ .Lastmod.Format "January 2, 2006" }}</small></p>
     </footer>
