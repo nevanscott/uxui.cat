@@ -19,8 +19,8 @@
   "homepage": "https://github.com/nevanscott/uxui.cat#readme",
   "dependencies": {
     "netlify-cms": "^2.8.0",
-    "postcss-cli": "^9.1",
-    "postcss-easy-import": "^4.0",
-    "postcss-preset-env": "^7.4"
+    "postcss-cli": "^9.1.0",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-preset-env": "^7.7.2"
   }
 }
