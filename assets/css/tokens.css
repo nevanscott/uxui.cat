@@ -1,15 +1,16 @@
 :root {
   --font-sans: "Output Sans", system-ui, sans-serif;
-  --font-serif: "Source Serif", ui-serif, Georgia, serif;
+  --font-serif: "PiazzollaVar", "Piazzolla", ui-serif, Georgia, serif;
+  --font-display: "Job Clarendon", ui-serif, Georgia, serif;
 
   --font-size: calc(0.2vw + 1.2em);
 
   --line-height: 1.4;
   --line-height-headline: 1.2;
 
-  --font-text: var(--font-sans);
-  --font-title: var(--font-serif);
-  --font-headline: var(--font-serif);
+  --font-text: var(--font-serif);
+  --font-title: var(--font-display);
+  --font-headline: var(--font-sans);
   --font-subhead: var(--font-sans);
   --font-interface: var(--font-sans);
   --font-caption: var(--font-sans);

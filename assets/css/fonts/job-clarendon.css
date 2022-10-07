@@ -1,0 +1,7 @@
+@font-face {
+    src: url('fonts/job-clarendon/JobClarendonVariable-VF.woff2') format("woff2"),
+         url('fonts/job-clarendon/JobClarendonVariable-VF.woff') format("woff");
+    font-family: 'Job Clarendon';
+    font-style: normal;
+    font-weight: 100 900;
+}
