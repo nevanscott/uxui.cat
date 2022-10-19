@@ -12,6 +12,6 @@ Nevan here. 👋 I'm a design teacher based in Barcelona, Spain, and this is my 
 
 ## Interested in studying with me? 🌴
 
-I teach a 9-week bootcamp on user experience and user interface design at <a href="http://www.ironhack.com/en/courses/ux-ui-design-bootcamp-learn-ux-design">Ironhack in Barcelona</a>.
+I teach a 12-week bootcamp on product design at <a href="https://buttonschool.com">Button School in Barcelona</a> with Víctor Ventura.
 
-It’s a <a href="{{< ref "projects" >}}">project-based</a> class, with the goal of preparing students to start their careers as junior-level product designers. It’s a big commitment, but if you’re ready for that, I would love to have you in class.
+It’s a <a href="{{< ref "projects" >}}">project-based</a> class, with the goal of preparing students to start their careers as junior-level product designers. It’s a big commitment, but if you’re ready for that, we would love to have you in class.
