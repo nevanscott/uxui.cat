@@ -2,7 +2,7 @@
   background-color: var(--callout);
   border-bottom: solid 1px var(--stroke);
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .promo a {
