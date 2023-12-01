@@ -9,9 +9,8 @@ Nevan here. 👋 I'm a design teacher based in Barcelona, Spain, and this is my 
 
 </header>
 
-
 ## Interested in studying with me? 🌴
 
-I teach a 12-week bootcamp on product design at <a href="https://buttonschool.com">Button School in Barcelona</a> with Víctor Ventura.
+I teach short courses on product design at <a href="https://buttonschool.com">Button School</a>.
 
-It’s a <a href="{{< ref "projects" >}}">project-based</a> class, with the goal of preparing students to start their careers as junior-level product designers. It’s a big commitment, but if you’re ready for that, we would love to have you in class.
+In the past, I’ve taught bootcamps for new UX and product designers. These were <a href="{{< ref "projects" >}}">project-based</a> classes, with the goal of preparing students to start their careers as junior-level product designers.
