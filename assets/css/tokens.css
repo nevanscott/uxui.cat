@@ -1,6 +1,7 @@
 :root {
-  --font-sans: "Output Sans", system-ui, sans-serif;
-  --font-serif: "Source Serif", ui-serif, Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
 
   --font-size: calc(0.2vw + 1.2em);
 
@@ -16,29 +17,35 @@
   --font-logo: var(--font-sans);
 
   --background: white;
-  --color: #3C4B4D;
-  --color-muted: #6F7E80;
+  --color: #3c4b4d;
+  --color-muted: #6f7e80;
   --color-contrast: black;
-  --stroke: #DAE5E6;
+  --stroke: #dae5e6;
   --fill: white;
-  --link: #489DF1;
+  --link: #489df1;
   --active: mediumblue;
   --highlight: lemonchiffon;
   --highlight-alt: peachpuff;
   --highlight-text: black;
-  --callout: #F1F5F5;
-  --callout-alt: #CDD3D3;
+  --callout: #f1f5f5;
+  --callout-alt: #cdd3d3;
 
   --logo-fill: white;
   --logo-stroke: black;
   --logo-stroke-width: 2;
 
   --svg-white: white;
-  --svg-teal-100: #F1F5F5;
-  --svg-teal-200: #CDD3D3;
-  --svg-teal-300: #6F7E80;
+  --svg-teal-100: #f1f5f5;
+  --svg-teal-200: #cdd3d3;
+  --svg-teal-300: #6f7e80;
   --svg-teal-400: #506062;
-  --svg-blue: #489DF1;
+  --svg-blue: #489df1;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    --font-sans: "InterVariable", system-ui, sans-serif;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
